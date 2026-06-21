@@ -7,13 +7,20 @@ A simple static website starter for Prestige Electric.
 From the repository root:
 
 ```bash
-python3 -m http.server 8000 --bind 0.0.0.0
+npm install
+npm run dev
 ```
 
 Then open:
 
 ```text
-http://localhost:8000
+http://localhost:5173
 ```
 
-Edit `index.html` and `styles.css`, then refresh the browser to see changes.
+Edit `index.html` and `styles.css`; Vite will reload the page as you make changes.
+
+## Production build
+
+```bash
+npm run build
+```

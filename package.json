@@ -1,0 +1,23 @@
+{
+  "name": "prestigeelectric",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple static website starter for Prestige Electric.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clicktitan/prestigeelectric.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/clicktitan/prestigeelectric/issues"
+  },
+  "homepage": "https://github.com/clicktitan/prestigeelectric#readme",
+  "devDependencies": {
+    "vite": "^8.0.16"
+  }
+}
