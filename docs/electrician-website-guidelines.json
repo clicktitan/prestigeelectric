@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "title": "Electrician Website Design & Best-Practice Guidelines",
+    "purpose": "Authoritative ruleset for an AI coding assistant (Cursor) to follow when designing and building a Kansas City, KS electrician website. Derived from analysis of the top 15 KC-metro electrician sites. Rules are ordered by priority within each section. When two rules conflict, the one marked higher priority wins.",
+    "version": "1.0",
+    "context": "Local home-services trade. Many visitors arrive mid-emergency on mobile and are vetting whether the business is real, local, licensed, and fairly priced. Speed-to-call and trust are the dominant conversion levers.",
+    "howToUse": "Treat every rule as a build requirement, not a suggestion. Before marking a page complete, run it against qualityChecklist. Do not invent business facts (license numbers, review counts, years in business); use the placeholders in businessProfile and flag them for the client to fill in."
+  },
+
+  "businessProfile": {
+    "instructions": "Replace all PLACEHOLDER values with real client data. Never fabricate these.",
+    "businessName": "PLACEHOLDER_BUSINESS_NAME",
+    "primaryCity": "Kansas City, KS",
+    "serviceArea": [
+      "Kansas City, KS",
+      "Kansas City, MO",
+      "Overland Park",
+      "Olathe",
+      "Lenexa",
+      "Shawnee",
+      "Leawood",
+      "Prairie Village",
+      "Mission",
+      "Bonner Springs",
+      "Edwardsville",
+      "Merriam",
+      "Roeland Park",
+      "Fairway"
+    ],
+    "counties": ["Wyandotte County, KS", "Johnson County, KS", "Jackson County, MO"],
+    "phonePrimary": "PLACEHOLDER_PHONE_KS",
+    "phoneSecondary": "PLACEHOLDER_PHONE_MO",
+    "email": "PLACEHOLDER_EMAIL",
+    "address": "PLACEHOLDER_STREET_ADDRESS",
+    "hours": "PLACEHOLDER_HOURS",
+    "emergencyService": "PLACEHOLDER_TRUE_OR_FALSE",
+    "yearFounded": "PLACEHOLDER_YEAR",
+    "licenseInfo": "PLACEHOLDER_LICENSE_STATEMENT",
+    "insured": true,
+    "bbbAccredited": "PLACEHOLDER_TRUE_OR_FALSE",
+    "reviewCount": "PLACEHOLDER_NUMBER",
+    "averageRating": "PLACEHOLDER_RATING",
+    "googleBusinessProfileUrl": "PLACEHOLDER_GBP_URL"
+  },
+
+  "recommendedStack": {
+    "note": "Flexible. Optimize for SEO, speed, and editability. If the client has an existing stack, adapt these rules to it.",
+    "framework": "Next.js (App Router) for static/SSG pages and fast first paint",
+    "styling": "Tailwind CSS with a centralized design-token config",
+    "images": "next/image with explicit width/height, AVIF/WebP, lazy-loading below the fold",
+    "forms": "Server action or API route with spam protection (honeypot + rate limit); no client-only forms that lose leads on JS failure",
+    "analytics": "Google Analytics 4 + call tracking; event on every CTA click and form submit",
+    "hosting": "Edge/CDN-backed host with image optimization"
+  },
+
+  "designPrinciples": [
+    {
+      "id": "P1",
+      "rule": "Lead with the call, not the brand.",
+      "detail": "The visitor's fastest path to converting is a phone call. The header must expose a tappable click-to-call number above the fold on every page, before any scroll, on both desktop and mobile.",
+      "priority": "critical"
+    },
+    {
+      "id": "P2",
+      "rule": "Confront anxiety in the first viewport.",
+      "detail": "The hero must answer 'why you, why now' with a value proposition that addresses customer fear (safety, surprise pricing, trust). A van photo plus the company name alone is a failure.",
+      "priority": "critical"
+    },
+    {
+      "id": "P3",
+      "rule": "Trust is designed, not implied.",
+      "detail": "License/insured status, review rating + count, years in business, and BBB (if applicable) must appear as visible designed badges high on the page, not buried in the footer.",
+      "priority": "critical"
+    },
+    {
+      "id": "P4",
+      "rule": "Mobile-first and emergency-aware.",
+      "detail": "Assume a stressed, one-handed mobile user. Thumb-reachable call button, large tap targets, no horizontal scroll, no tiny links.",
+      "priority": "critical"
+    },
+    {
+      "id": "P5",
+      "rule": "One reserved accent color for action.",
+      "detail": "Pick a single high-contrast accent and use it ONLY for CTAs/buttons. Never color decorative elements with the action color.",
+      "priority": "high"
+    },
+    {
+      "id": "P6",
+      "rule": "Every service earns its own page.",
+      "detail": "Each service is a discrete, indexable page with real explanatory depth. This serves UX and SEO simultaneously.",
+      "priority": "high"
+    },
+    {
+      "id": "P7",
+      "rule": "Combine persuasion AND structure.",
+      "detail": "The market gap: most competitors have either empathetic copy OR strong SEO architecture, rarely both. This site must do both.",
+      "priority": "high"
+    }
+  ],
+
+  "designSystem": {
+    "colorPalette": {
+      "note": "Starting palette. Client may rebrand, but the ROLE of each color (especially accent reserved for CTAs) must be preserved.",
+      "primary": { "hex": "#0B3D66", "role": "Brand / headers / navigation. Deep, trustworthy blue." },
+      "primaryDark": { "hex": "#072A47", "role": "Footer, hover states on primary." },
+      "accent": { "hex": "#F5A300", "role": "RESERVED FOR CTAS ONLY. Phone buttons, request-service buttons, offers. Do not use decoratively." },
+      "accentHover": { "hex": "#D98C00", "role": "Hover/active state for accent CTAs." },
+      "neutralDark": { "hex": "#1A1A1A", "role": "Body text." },
+      "neutralMid": { "hex": "#5A5A5A", "role": "Secondary text, captions." },
+      "neutralLight": { "hex": "#F4F6F8", "role": "Section backgrounds, alternating bands." },
+      "white": { "hex": "#FFFFFF", "role": "Base background, cards." },
+      "success": { "hex": "#1E8E3E", "role": "Form success, trust ticks." },
+      "contrastRule": "All text must meet WCAG AA (4.5:1 normal, 3:1 large). Accent color is for fills behind dark text or as a button with sufficient contrast; verify accent-on-white text passes before using it for text."
+    },
+    "typography": {
+      "headingFont": "A strong, legible sans (e.g., Inter, Poppins, or Archivo). Self-host or use a fast font CDN with display=swap.",
+      "bodyFont": "A highly readable sans (e.g., Inter or system stack).",
+      "scale": {
+        "h1": "clamp(2rem, 5vw, 3.25rem), bold",
+        "h2": "clamp(1.5rem, 3vw, 2.25rem), semibold",
+        "h3": "1.25rem, semibold",
+        "body": "1rem to 1.125rem, line-height 1.6",
+        "small": "0.875rem"
+      },
+      "rule": "Body text never below 16px on mobile. Generous line-height for scannability."
+    },
+    "spacing": {
+      "scale": "4px base unit (4, 8, 12, 16, 24, 32, 48, 64, 96).",
+      "sectionPadding": "64px-96px vertical on desktop, 40px-56px on mobile.",
+      "rule": "Use whitespace to separate sections; alternate white and neutralLight bands for rhythm."
+    },
+    "components": {
+      "ctaButton": {
+        "appearance": "Filled accent color, dark or white text passing contrast, bold, generous padding (min 48px height for tap target), rounded corners.",
+        "states": "Distinct hover, focus-visible ring, and active states required.",
+        "rule": "Primary CTA text is action-oriented: 'Call Now', 'Request Service', 'Get a Free Quote'. Never generic 'Submit' or 'Learn More' for the main action."
+      },
+      "clickToCall": {
+        "appearance": "Phone icon + number, accent-colored, always tappable via tel: link.",
+        "placement": "Pinned in header on all viewports; repeated in a sticky mobile footer bar.",
+        "rule": "Wrap in <a href='tel:+1XXXXXXXXXX'>. Fire an analytics event on click."
+      },
+      "trustBadgeRow": {
+        "contents": "Star rating + review count, 'Licensed & Insured', 'Years in business', BBB logo (if accredited), Google reviews logo.",
+        "placement": "Directly under hero and again near the primary form."
+      },
+      "serviceCard": {
+        "contents": "Icon, service name, one-line benefit, link to the dedicated service page.",
+        "rule": "Cards link to real pages, never to anchors on a single bloated services page."
+      },
+      "testimonialCard": {
+        "contents": "Quote, customer first name + last initial, city, the specific job done, and the technician's name where available.",
+        "rule": "Named, job-specific testimonials only. No anonymous one-liners. Pull from real Google reviews; do not fabricate."
+      },
+      "stickyMobileBar": {
+        "contents": "Two buttons: 'Call' (accent) and 'Request Service'.",
+        "placement": "Fixed to bottom of viewport on mobile across all pages."
+      }
+    },
+    "imagery": {
+      "rule": "Use authentic crew, truck, and completed-job photography. NO generic stock electrician imagery.",
+      "heroMedia": "Optional short compressed hero video (muted, autoplay, loop) WITH a static image fallback that loads first. Video must not block first paint.",
+      "projectGallery": "Include a gallery of real before/after work (panel upgrades, lighting, EV chargers). Each image has descriptive alt text.",
+      "altText": "Every image needs descriptive, keyword-aware alt text (e.g., 'Electrician installing a 200-amp panel in a Kansas City, KS home')."
+    }
+  },
+
+  "informationArchitecture": {
+    "globalNavigation": {
+      "style": "Services exposed as a mega-menu/dropdown listing each service page individually.",
+      "items": ["Home", "Services (mega-menu)", "Service Areas", "About", "Reviews", "Blog", "Contact"],
+      "persistentElements": ["Click-to-call number", "Request Service button"],
+      "rule": "Do not hide services behind a single undifferentiated 'Services' link."
+    },
+    "corePages": [
+      { "page": "Home", "mustInclude": ["hero with value prop + CTA", "click-to-call header", "trust badge row", "service cards grid", "named testimonials", "pricing-transparency promise", "service-area block with embedded Google Map", "project gallery", "primary request form", "lead magnet/offer"] },
+      { "page": "About", "mustInclude": ["founding year", "owner/master electrician bio", "license & insurance statement", "fleet/team size if notable", "real team photos"] },
+      { "page": "Contact", "mustInclude": ["short request form", "both phone numbers", "exact address + cross streets", "hours", "payment methods accepted", "embedded map", "emergency-service note if applicable"] },
+      { "page": "Reviews", "mustInclude": ["aggregate rating", "named job-specific reviews", "link to Google Business Profile"] },
+      { "page": "Blog", "mustInclude": ["top-of-funnel educational posts targeting informational queries"] }
+    ],
+    "serviceServiceMatrix": {
+      "instruction": "Generate one dedicated, content-rich page per service. Each page must have UNIQUE, substantive copy (300+ words), not a thin template clone. Thin duplicated pages are a known SEO liability and are prohibited.",
+      "services": [
+        "Electrical Panel Upgrades / Breaker Box Replacement",
+        "Whole-House Wiring & Rewiring",
+        "Outlet & Switch Installation/Repair",
+        "EV Charger Installation",
+        "Generator Installation (portable & whole-home)",
+        "Electrical Safety Inspections",
+        "Ceiling Fan Installation",
+        "Indoor & Recessed Lighting",
+        "Outdoor / Landscape Lighting",
+        "Whole-Home Surge Protection",
+        "Smart Home Integration",
+        "Troubleshooting & Electrical Repair",
+        "Commercial Electrical Services",
+        "Emergency Electrical Service"
+      ],
+      "perServicePageMustInclude": [
+        "Unique H1 with service + primary city",
+        "Explanatory educational content (e.g., why pre-1980 homes on 60-amp service need upgrades, NEC/GFCI context)",
+        "Common symptoms / when to call",
+        "Process and what to expect",
+        "Trust badges",
+        "Service-specific CTA and form",
+        "Relevant FAQ block with FAQ schema",
+        "Internal links to related services and to relevant city pages"
+      ]
+    },
+    "locationPages": {
+      "instruction": "Generate a dedicated, indexable page per major service-area city, INCLUDING a dedicated 'Electrician in Kansas City, KS' page (primary target). Each must have locally tailored copy referencing neighborhoods, local context, or common local housing stock. Do NOT mass-produce thin near-duplicate city pages.",
+      "primaryTarget": "Kansas City, KS",
+      "rule": "Quality over quantity. A handful of genuinely localized pages beats dozens of templated ones."
+    }
+  },
+
+  "conversionOptimization": {
+    "callToAction": {
+      "rules": [
+        "Pin click-to-call in the header on every page and viewport.",
+        "Repeat a CTA after every major homepage section (visitors decide to act at unpredictable scroll depths).",
+        "Sticky bottom call+request bar on mobile.",
+        "Use action-oriented button copy; reserve the accent color for CTAs only.",
+        "Fire an analytics event on every CTA click and form submit."
+      ]
+    },
+    "forms": {
+      "rules": [
+        "Keep the primary request form short: Name, Phone, ZIP, short Message. Email optional.",
+        "Make a request form always reachable (off-canvas slide-out or sticky CTA that opens it) so visitors never navigate away to convert.",
+        "Include lead-segmentation field: 'I am a...' (Homeowner - small repair, Homeowner - installation, Property Manager, Contractor). One tap, helps routing.",
+        "Server-side handling with honeypot + rate limiting; never lose a lead to client JS failure.",
+        "Show a clear success state and a fallback phone number on error.",
+        "Minimize required fields; every extra field reduces completion."
+      ]
+    },
+    "trustSignals": {
+      "rules": [
+        "Display review rating + count, licensed & insured, years in business, and BBB (if accredited) as designed badges high on the page.",
+        "Testimonials must name the customer, city, job, and technician where possible.",
+        "Show a project/photo gallery of real completed work as visual proof of competence.",
+        "Link out to the live Google Business Profile for verifiability."
+      ]
+    },
+    "pricingTransparency": {
+      "rule": "Turn pricing reassurance into a visible designed promise block. Examples of patterns proven in this market: 'No-surprises, charge-by-the-job pricing', 'Flat-rate pricing - know the cost before we start', 'Free estimates'. Use only the claims the client can truthfully make.",
+      "priority": "high"
+    },
+    "offersAndLeadMagnets": {
+      "rule": "Provide at least one lower-commitment entry point styled as a distinct card: a priced safety inspection, a downloadable home electrical safety checklist, a dollar-off coupon, or military/senior discount. Use real, client-approved offers only."
+    }
+  },
+
+  "seo": {
+    "technical": {
+      "rules": [
+        "Set a self-referencing canonical on every page.",
+        "Unique title tag and meta description per page; include primary service + city and the phone number in the description.",
+        "Set robots to index,follow on public pages; include max-image-preview:large.",
+        "Add Open Graph and Twitter card tags with a branded share image.",
+        "Generate sitemap.xml and robots.txt.",
+        "Use semantic HTML5 landmarks (header, nav, main, footer, section) and one H1 per page.",
+        "All internal links use descriptive anchor text; build a logical internal-linking mesh between services and city pages."
+      ]
+    },
+    "structuredData": {
+      "instruction": "Implement JSON-LD schema.",
+      "schemas": [
+        "LocalBusiness / Electrician (name, address, geo, hours, phone, priceRange, areaServed, sameAs to social + GBP)",
+        "Service schema on each service page",
+        "FAQPage schema on pages with FAQ blocks",
+        "AggregateRating / Review schema fed by real reviews",
+        "BreadcrumbList on inner pages"
+      ],
+      "rule": "Schema must reflect only true, on-page information. Do not mark up fake reviews or ratings."
+    },
+    "onPageContent": {
+      "rules": [
+        "Each service and city page has unique, substantive copy - no thin templated duplicates.",
+        "Target informational queries with a blog (e.g., 'signs you need a panel upgrade', 'which home appliances use the most electricity', 'is your wiring up to code').",
+        "Naturally include 'Kansas City, KS', 'Wyandotte County', and metro suburb names where truthful and relevant - never keyword-stuff.",
+        "Embed a Google Map and list the service-area suburbs as a designed block."
+      ]
+    },
+    "localSeo": {
+      "rules": [
+        "Ensure NAP (Name, Address, Phone) is identical site-wide and matches the Google Business Profile exactly.",
+        "Build a dedicated Kansas City, KS landing page as the primary local target.",
+        "Encourage review generation; surface fresh named reviews on-site.",
+        "Add LocalBusiness schema with accurate geo-coordinates and areaServed."
+      ]
+    }
+  },
+
+  "mobile": {
+    "rules": [
+      "Design and test mobile-first; verify the entire call/request flow one-handed.",
+      "Tap targets minimum 48x48px with adequate spacing.",
+      "Sticky bottom bar with Call + Request Service on all mobile pages.",
+      "No horizontal scrolling; fluid type via clamp().",
+      "Defer/lazy-load below-the-fold media so the hero and phone number paint fast."
+    ]
+  },
+
+  "performance": {
+    "targets": {
+      "LCP": "< 2.5s",
+      "CLS": "< 0.1",
+      "INP": "< 200ms"
+    },
+    "rules": [
+      "Optimize and serve images as AVIF/WebP with explicit dimensions to prevent layout shift.",
+      "Hero video must be compressed, lazy, and have an image fallback that paints first; never block first contentful paint.",
+      "Limit third-party scripts; load analytics/chat asynchronously.",
+      "Preload critical fonts with display=swap; avoid render-blocking CSS/JS.",
+      "Static-generate (SSG) marketing pages where possible.",
+      "Slow load disproportionately hurts mobile/emergency visitors - treat performance as a conversion feature, not a nicety."
+    ]
+  },
+
+  "accessibility": {
+    "rules": [
+      "Meet WCAG 2.1 AA: contrast, focus-visible states, keyboard navigability.",
+      "All images have descriptive alt text; decorative images use empty alt.",
+      "Forms have associated labels and accessible error messaging.",
+      "tel: and mailto: links are real, keyboard-accessible anchors.",
+      "Respect prefers-reduced-motion: disable autoplay video/animation when set."
+    ]
+  },
+
+  "copyGuidelines": {
+    "voice": "Trustworthy, plain-spoken, locally rooted. Speak to the homeowner's anxiety about hidden wiring, safety, and surprise costs.",
+    "rules": [
+      "Lead with empathy and reassurance, then capability - not a feature dump.",
+      "Explain the 'why' (educate), the way the strongest competitors do, to build authority.",
+      "Use concrete operational facts (founding year, fleet size, hours, warranty terms) instead of vague superlatives.",
+      "Every page ends with a clear next step (call or request service).",
+      "Do not fabricate credentials, review counts, awards, or years in business."
+    ]
+  },
+
+  "doNot": [
+    "Do not bury the phone number below the fold or in the footer only.",
+    "Do not use generic stock electrician photography.",
+    "Do not put all services on one bloated page with anchor links.",
+    "Do not mass-produce thin, near-duplicate city or service pages.",
+    "Do not run the business on two near-identical domains (duplicate-content dilution).",
+    "Do not use the accent/action color for decorative elements.",
+    "Do not use anonymous, generic testimonials.",
+    "Do not let a hero video block first paint or ship without an image fallback.",
+    "Do not fabricate any business fact, review, rating, license, or award.",
+    "Do not use a client-only form that can silently drop a lead.",
+    "Do not use generic CTA copy like 'Submit' for the primary action."
+  ],
+
+  "qualityChecklist": {
+    "instruction": "Every page must pass before it is considered complete.",
+    "items": [
+      "Click-to-call visible and tappable above the fold (header + sticky mobile bar).",
+      "Hero communicates value proposition + has a primary CTA.",
+      "Trust badges (rating, licensed/insured, years) visible high on the page.",
+      "Primary request form is short, segmented, server-handled, and always reachable.",
+      "Pricing-transparency promise present where relevant.",
+      "At least one lead magnet/offer present.",
+      "Named, job-specific testimonials present.",
+      "Service-area block with embedded Google Map.",
+      "Unique title, meta description (with phone), canonical, OG/Twitter tags.",
+      "Appropriate JSON-LD schema implemented and accurate.",
+      "One H1, semantic landmarks, descriptive alt text on all images.",
+      "Mobile flow tested one-handed; tap targets >= 48px.",
+      "LCP < 2.5s, CLS < 0.1, no render-blocking hero video.",
+      "WCAG AA contrast and focus states verified.",
+      "No fabricated facts; all PLACEHOLDER values replaced or flagged."
+    ]
+  }
+}
