@@ -1,0 +1,91 @@
+{
+  "business": {
+    "name": "Prestige Electric",
+    "legalName": "Prestige Electrical Contractors",
+    "tagline": "Trusted electrical solutions for Kansas City homes and businesses.",
+    "phone": "+1 (816) 548-9601",
+    "phoneHref": "tel:+18165489601",
+    "email": "info@prestigeelectricalcontractors.com",
+    "emailHref": "mailto:info@prestigeelectricalcontractors.com",
+    "location": "Belton, Missouri",
+    "serviceArea": [
+      "Kansas City",
+      "Belton",
+      "Harrisonville",
+      "Lee's Summit",
+      "Raymore",
+      "Overland Park",
+      "Olathe",
+      "Independence"
+    ],
+    "primaryKeywords": [
+      "Kansas City electrician",
+      "electrical contractor Kansas City",
+      "residential electrical services",
+      "commercial electrical services",
+      "panel upgrades",
+      "emergency electrical repairs"
+    ]
+  },
+  "services": [
+    {
+      "title": "Service & Repairs",
+      "description": "Troubleshooting, outlet repairs, breaker issues, flickering lights, and safe code corrections."
+    },
+    {
+      "title": "Panel Upgrades",
+      "description": "Modern electrical panels, sub-panels, surge protection, and capacity upgrades for growing power needs."
+    },
+    {
+      "title": "Lighting & Fans",
+      "description": "Interior lighting, exterior security lighting, ceiling fans, recessed lighting, and efficiency upgrades."
+    },
+    {
+      "title": "EV Chargers",
+      "description": "Dedicated circuits and Level 2 EV charger installations for homes, garages, and workplaces."
+    },
+    {
+      "title": "Commercial Electrical",
+      "description": "Tenant finishes, maintenance, lighting retrofits, dedicated circuits, and repair support for local businesses."
+    },
+    {
+      "title": "Rewiring & Remodels",
+      "description": "Whole-home rewiring, remodel wiring, appliance circuits, and electrical planning for renovations."
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Tell us what is happening",
+      "description": "Call or request a quote and share the electrical problem, upgrade, or project scope."
+    },
+    {
+      "step": "02",
+      "title": "Get a clear recommendation",
+      "description": "A knowledgeable electrician reviews the work and explains the safest, most practical solution."
+    },
+    {
+      "step": "03",
+      "title": "Enjoy reliable power",
+      "description": "Prestige completes the work cleanly, safely, and with a focus on long-term performance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you provide residential and commercial electrical services?",
+      "answer": "Yes. Prestige Electric handles electrical repairs, installations, panel upgrades, lighting, rewiring, and ongoing service for homes and businesses across the Kansas City metro."
+    },
+    {
+      "question": "Can I request a free electrical estimate?",
+      "answer": "Yes. You can call +1 (816) 548-9601 or use the quote form to request an estimate for electrical repairs, upgrades, or installations."
+    },
+    {
+      "question": "What are common signs I should call an electrician?",
+      "answer": "Frequent breaker trips, flickering lights, warm outlets, buzzing panels, burning smells, outdated wiring, or power loss are all signs that a licensed electrician should inspect the system."
+    },
+    {
+      "question": "Do you install EV chargers and upgraded electrical panels?",
+      "answer": "Yes. Prestige Electric can install dedicated EV charger circuits, Level 2 chargers, new panels, sub-panels, and electrical upgrades for higher-capacity equipment."
+    }
+  ]
+}
