@@ -1,0 +1,16 @@
+{
+  "name": "prestige-electric",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build:pages": "python3 scripts/build-pages.py",
+    "gallery:process": "python3 scripts/process-gallery.py",
+    "build": "python3 scripts/build-pages.py && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  }
+}

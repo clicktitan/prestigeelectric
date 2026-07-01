@@ -1,0 +1,337 @@
+{
+  "belton-mo": {
+    "seo": {
+      "title": "Electrician in Belton, MO | Prestige Electric",
+      "metaDescription": "Belton-based family electrician serving local homes and businesses. Repairs, upgrades, and panel work. Call (816) 548-9601.",
+      "h1": "Electrician Serving Belton, MO"
+    },
+    "page": {
+      "heroLead": "Belton-based, family-owned electrical service for your home or business. Upfront flat-rate pricing from electricians who live and work in the community they serve.",
+      "heroEyebrow": "Belton electricians",
+      "intro": {
+        "eyebrow": "Belton electrical service",
+        "paragraphs": [
+          "Prestige Electric is based in Belton and serves homeowners and businesses throughout the city. From mid-century homes near downtown Belton to newer construction on the edges of Cass County, we handle panel replacements, service upgrades, outlet and wiring repairs, and hot tub circuits for properties across the community.",
+          "Because our shop is local, Belton service calls often mean shorter drive times and scheduling that fits how you actually use your home. Our licensed electricians diagnose problems on site, explain the safest fix in plain language, and provide upfront flat-rate pricing before work begins."
+        ]
+      },
+      "services": [
+        { "slug": "electrical-repair", "anchor": "electrical repair", "description": "Outlets, switches, wiring fixes, and lighting repairs for Belton homes." },
+        { "slug": "service-upgrades", "anchor": "electrical service upgrades", "description": "Increase capacity for additions, workshops, and modern appliance loads." },
+        { "slug": "panel-replacements", "anchor": "electrical panel replacement", "description": "Replace outdated or overcrowded panels with modern, dependable equipment." },
+        { "slug": "hot-tubs", "anchor": "hot tub wiring", "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups." }
+      ],
+      "whyChoose": {
+        "eyebrow": "Your local electrician",
+        "heading": "Why Belton homeowners choose Prestige Electric",
+        "paragraphs": [
+          "Prestige Electric is family-owned and operated right here in Belton. When you call, you are reaching a local company that knows Cass County homes, not a call center routing you out of the area.",
+          "Customers across the Kansas City metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication and dependable workmanship."
+        ],
+        "bullets": [
+          "Based in Belton, MO",
+          "Licensed and insured electricians",
+          "Upfront flat-rate pricing before work starts",
+          "Lifetime craftsmanship warranty on qualifying work"
+        ]
+      },
+      "serviceArea": {
+        "heading": "Serving Belton and the greater Kansas City metro",
+        "paragraph": "Prestige Electric is headquartered in Belton and also serves Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the Kansas City metropolitan area.",
+        "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Belton,+Missouri&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+      },
+      "closingCta": {
+        "heading": "Schedule an electrician in Belton",
+        "text": "Call or send a message to request electrical service in Belton. For urgent safety concerns, call (816) 548-9601 now."
+      },
+      "faqHeading": "Belton electrician questions",
+      "mapLinkLabel": "View Belton on Google Maps"
+    },
+    "faqs": [
+      {
+        "question": "Do you offer emergency electrical service in Belton?",
+        "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Belton and we will advise on the fastest next step."
+      },
+      {
+        "question": "Are you a local Belton electrician?",
+        "answer": "Yes. Prestige Electric is based in Belton, MO. We are a family-owned company serving Belton homeowners and businesses, as well as the broader Kansas City metro."
+      },
+      {
+        "question": "What electrical services do you provide in Belton?",
+        "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Belton homes and businesses. Each service has its own page with details on scope, process, and pricing approach."
+      },
+      {
+        "question": "How do I get a quote for electrical work in Belton?",
+        "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+      }
+    ]
+  },
+  "lees-summit-mo": {
+    "seo": {
+      "title": "Electrician in Lee's Summit, MO | Prestige Electric",
+      "metaDescription": "Family-owned electrician in Lee's Summit, MO. Panel upgrades, repairs, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+      "h1": "Electrician Serving Lee's Summit, MO"
+    },
+    "page": {
+      "heroLead": "Family-owned electrical service for Lee's Summit homes and businesses. Upfront flat-rate pricing from a Belton-based team that serves eastern Jackson County regularly.",
+      "heroEyebrow": "Lee's Summit electricians",
+      "intro": {
+        "eyebrow": "Lee's Summit electrical service",
+        "paragraphs": [
+          "Prestige Electric serves Lee's Summit homeowners and businesses from our family-owned operation based in Belton. Lee's Summit spans a wide mix of housing, from older neighborhoods near downtown to newer builds on the city's growing edges, and electrical needs vary just as much. We see panel upgrades for finished basements, hot tub circuits for backyard setups, and troubleshooting calls when breakers trip under everyday load.",
+          "Whether you own a long-established Lee's Summit home or are updating a property before sale, our licensed electricians find the root cause, explain your options clearly, and provide upfront flat-rate pricing before any repair or upgrade work starts."
+        ]
+      },
+      "services": [
+        { "slug": "electrical-repair", "anchor": "electrical repair", "description": "Outlets, switches, wiring fixes, and lighting repairs for Lee's Summit homes." },
+        { "slug": "service-upgrades", "anchor": "electrical service upgrades", "description": "Increase capacity for additions, workshops, and modern appliance loads." },
+        { "slug": "panel-replacements", "anchor": "electrical panel replacement", "description": "Replace outdated or overcrowded panels with modern, dependable equipment." },
+        { "slug": "hot-tubs", "anchor": "hot tub wiring", "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups." }
+      ],
+      "whyChoose": {
+        "eyebrow": "Local electricians",
+        "heading": "Why Lee's Summit homeowners choose Prestige Electric",
+        "paragraphs": [
+          "Prestige Electric is family-owned and operated, serving Lee's Summit from our Belton base along with the rest of the Kansas City metro. We treat every home with the same care we would expect in our own.",
+          "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and work done right the first time."
+        ],
+        "bullets": [
+          "Family-owned and operated local company",
+          "Licensed and insured electricians",
+          "Upfront flat-rate pricing before work starts",
+          "Lifetime craftsmanship warranty on qualifying work"
+        ]
+      },
+      "serviceArea": {
+        "heading": "Serving Lee's Summit and the Kansas City metro",
+        "paragraph": "Prestige Electric provides electrical service throughout Lee's Summit and nearby communities, including Belton, Overland Park, Leawood, Lenexa, and Olathe.",
+        "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Lee's+Summit,+Missouri&t=&z=11&ie=UTF8&iwloc=B&output=embed"
+      },
+      "closingCta": {
+        "heading": "Schedule an electrician in Lee's Summit",
+        "text": "Call or send a message to request electrical service in Lee's Summit. For urgent safety concerns, call (816) 548-9601 now."
+      },
+      "faqHeading": "Lee's Summit electrician questions",
+      "mapLinkLabel": "View Lee's Summit on Google Maps"
+    },
+    "faqs": [
+      {
+        "question": "Do you offer emergency electrical service in Lee's Summit?",
+        "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Lee's Summit and we will advise on the fastest next step."
+      },
+      {
+        "question": "Are your electricians licensed to work in Lee's Summit, Missouri?",
+        "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Missouri and pull local permits when required for Lee's Summit projects."
+      },
+      {
+        "question": "What electrical services do you provide in Lee's Summit?",
+        "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Lee's Summit homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+      },
+      {
+        "question": "How do I get a quote for electrical work in Lee's Summit?",
+        "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+      }
+    ]
+  },
+  "leawood-ks": {
+    "seo": {
+      "title": "Electrician in Leawood, KS | Prestige Electric",
+      "metaDescription": "Family-owned electrician in Leawood, KS. Panel replacements, repairs, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+      "h1": "Electrician Serving Leawood, KS"
+    },
+    "page": {
+      "heroLead": "Family-owned electrical service for Leawood homes and businesses. Upfront flat-rate pricing from a team that serves Johnson County homeowners regularly.",
+      "heroEyebrow": "Leawood electricians",
+      "intro": {
+        "eyebrow": "Leawood electrical service",
+        "paragraphs": [
+          "Prestige Electric serves Leawood homeowners from our family-owned operation based in Belton. Leawood properties often involve high-end kitchen and bath remodels, outdoor lighting, whole-home generators, and hot tub installations that require careful load planning and clean panel work. We also troubleshoot tripping breakers and aging wiring in well-established Leawood homes.",
+          "Our licensed electricians work respectfully inside your home, explain the safest path forward, and provide upfront flat-rate pricing before upgrades, repairs, or new circuits are installed."
+        ]
+      },
+      "services": [
+        { "slug": "electrical-repair", "anchor": "electrical repair", "description": "Outlets, switches, wiring fixes, and lighting repairs for Leawood homes." },
+        { "slug": "service-upgrades", "anchor": "electrical service upgrades", "description": "Increase capacity for additions, workshops, and modern appliance loads." },
+        { "slug": "panel-replacements", "anchor": "electrical panel replacement", "description": "Replace outdated or overcrowded panels with modern, dependable equipment." },
+        { "slug": "hot-tubs", "anchor": "hot tub wiring", "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups." }
+      ],
+      "whyChoose": {
+        "eyebrow": "Local electricians",
+        "heading": "Why Leawood homeowners choose Prestige Electric",
+        "paragraphs": [
+          "Prestige Electric is family-owned and operated, serving Leawood and Johnson County from our Belton base. We understand that Leawood projects often involve detailed finish work and homeowners who expect clear communication throughout the job.",
+          "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting dependable scheduling and quality workmanship."
+        ],
+        "bullets": [
+          "Family-owned and operated local company",
+          "Licensed and insured electricians",
+          "Upfront flat-rate pricing before work starts",
+          "Lifetime craftsmanship warranty on qualifying work"
+        ]
+      },
+      "serviceArea": {
+        "heading": "Serving Leawood and nearby Johnson County communities",
+        "paragraph": "Prestige Electric provides electrical service throughout Leawood and the surrounding Kansas City metro, including Overland Park, Lenexa, Olathe, and Prairie Village.",
+        "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Leawood,+Kansas&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+      },
+      "closingCta": {
+        "heading": "Schedule an electrician in Leawood",
+        "text": "Call or send a message to request electrical service in Leawood. For urgent safety concerns, call (816) 548-9601 now."
+      },
+      "faqHeading": "Leawood electrician questions",
+      "mapLinkLabel": "View Leawood on Google Maps"
+    },
+    "faqs": [
+      {
+        "question": "Do you offer emergency electrical service in Leawood?",
+        "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Leawood and we will advise on the fastest next step."
+      },
+      {
+        "question": "Are your electricians licensed to work in Leawood and Johnson County?",
+        "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Kansas and pull permits through Johnson County when required for Leawood projects."
+      },
+      {
+        "question": "What electrical services do you provide in Leawood?",
+        "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Leawood homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+      },
+      {
+        "question": "How do I get a quote for electrical work in Leawood?",
+        "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+      }
+    ]
+  },
+  "lenexa-ks": {
+    "seo": {
+      "title": "Electrician in Lenexa, KS | Prestige Electric",
+      "metaDescription": "Family-owned electrician in Lenexa, KS. Repairs, service upgrades, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+      "h1": "Electrician Serving Lenexa, KS"
+    },
+    "page": {
+      "heroLead": "Family-owned electrical service for Lenexa homes and businesses. Upfront flat-rate pricing from a Belton-based team that serves Johnson County throughout the week.",
+      "heroEyebrow": "Lenexa electricians",
+      "intro": {
+        "eyebrow": "Lenexa electrical service",
+        "paragraphs": [
+          "Prestige Electric serves Lenexa homeowners and businesses from our family-owned operation based in Belton. Lenexa combines an established city core with ongoing residential and commercial growth, which means electrical needs range from troubleshooting in older homes to service upgrades and dedicated circuits for new outdoor living spaces.",
+          "Whether you are adding a hot tub, finishing a basement, or replacing a panel that no longer has open breaker spaces, our licensed electricians assess the job on site and provide upfront flat-rate pricing before work begins."
+        ]
+      },
+      "services": [
+        { "slug": "electrical-repair", "anchor": "electrical repair", "description": "Outlets, switches, wiring fixes, and lighting repairs for Lenexa homes." },
+        { "slug": "service-upgrades", "anchor": "electrical service upgrades", "description": "Increase capacity for additions, workshops, and modern appliance loads." },
+        { "slug": "panel-replacements", "anchor": "electrical panel replacement", "description": "Replace outdated or overcrowded panels with modern, dependable equipment." },
+        { "slug": "hot-tubs", "anchor": "hot tub wiring", "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups." }
+      ],
+      "whyChoose": {
+        "eyebrow": "Local electricians",
+        "heading": "Why Lenexa homeowners choose Prestige Electric",
+        "paragraphs": [
+          "Prestige Electric is family-owned and operated, serving Lenexa and the broader Johnson County area from our Belton headquarters. We focus on finding the right solution for your home, not overselling work you do not need.",
+          "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting honest recommendations and repairs done right the first time."
+        ],
+        "bullets": [
+          "Family-owned and operated local company",
+          "Licensed and insured electricians",
+          "Upfront flat-rate pricing before work starts",
+          "Lifetime craftsmanship warranty on qualifying work"
+        ]
+      },
+      "serviceArea": {
+        "heading": "Serving Lenexa and nearby Johnson County communities",
+        "paragraph": "Prestige Electric provides electrical service throughout Lenexa and the surrounding Kansas City metro, including Overland Park, Leawood, Olathe, and Shawnee.",
+        "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Lenexa,+Kansas&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+      },
+      "closingCta": {
+        "heading": "Schedule an electrician in Lenexa",
+        "text": "Call or send a message to request electrical service in Lenexa. For urgent safety concerns, call (816) 548-9601 now."
+      },
+      "faqHeading": "Lenexa electrician questions",
+      "mapLinkLabel": "View Lenexa on Google Maps"
+    },
+    "faqs": [
+      {
+        "question": "Do you offer emergency electrical service in Lenexa?",
+        "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Lenexa and we will advise on the fastest next step."
+      },
+      {
+        "question": "Are your electricians licensed to work in Lenexa, Kansas?",
+        "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Kansas and pull permits through Johnson County when required for Lenexa projects."
+      },
+      {
+        "question": "What electrical services do you provide in Lenexa?",
+        "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Lenexa homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+      },
+      {
+        "question": "How do I get a quote for electrical work in Lenexa?",
+        "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+      }
+    ]
+  },
+  "olathe-ks": {
+    "seo": {
+      "title": "Electrician in Olathe, KS | Prestige Electric",
+      "metaDescription": "Family-owned electrician in Olathe, KS. Panel replacements, repairs, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+      "h1": "Electrician Serving Olathe, KS"
+    },
+    "page": {
+      "heroLead": "Family-owned electrical service for Olathe homes and businesses. Upfront flat-rate pricing from a team that serves Johnson County from our Belton headquarters.",
+      "heroEyebrow": "Olathe electricians",
+      "intro": {
+        "eyebrow": "Olathe electrical service",
+        "paragraphs": [
+          "Prestige Electric serves Olathe homeowners and businesses from our family-owned operation based in Belton. As one of the largest cities in the Kansas City metro, Olathe includes everything from long-established neighborhoods with aging panels to newer residential areas where homeowners add EV chargers, hot tubs, and finished basement circuits. We match the repair or upgrade to how your home actually uses power.",
+          "Our licensed electricians troubleshoot faults, replace panels, and install new circuits to code. You get a clear explanation of the work and upfront flat-rate pricing before we start."
+        ]
+      },
+      "services": [
+        { "slug": "electrical-repair", "anchor": "electrical repair", "description": "Outlets, switches, wiring fixes, and lighting repairs for Olathe homes." },
+        { "slug": "service-upgrades", "anchor": "electrical service upgrades", "description": "Increase capacity for additions, workshops, and modern appliance loads." },
+        { "slug": "panel-replacements", "anchor": "electrical panel replacement", "description": "Replace outdated or overcrowded panels with modern, dependable equipment." },
+        { "slug": "hot-tubs", "anchor": "hot tub wiring", "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups." }
+      ],
+      "whyChoose": {
+        "eyebrow": "Local electricians",
+        "heading": "Why Olathe homeowners choose Prestige Electric",
+        "paragraphs": [
+          "Prestige Electric is family-owned and operated, serving Olathe and Johnson County from our Belton base. Olathe covers a lot of ground, and we plan drive routes to keep appointments dependable for homeowners across the city.",
+          "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication and professional results."
+        ],
+        "bullets": [
+          "Family-owned and operated local company",
+          "Licensed and insured electricians",
+          "Upfront flat-rate pricing before work starts",
+          "Lifetime craftsmanship warranty on qualifying work"
+        ]
+      },
+      "serviceArea": {
+        "heading": "Serving Olathe and nearby Johnson County communities",
+        "paragraph": "Prestige Electric provides electrical service throughout Olathe and the surrounding Kansas City metro, including Overland Park, Lenexa, Leawood, and Gardner.",
+        "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Olathe,+Kansas&t=&z=11&ie=UTF8&iwloc=B&output=embed"
+      },
+      "closingCta": {
+        "heading": "Schedule an electrician in Olathe",
+        "text": "Call or send a message to request electrical service in Olathe. For urgent safety concerns, call (816) 548-9601 now."
+      },
+      "faqHeading": "Olathe electrician questions",
+      "mapLinkLabel": "View Olathe on Google Maps"
+    },
+    "faqs": [
+      {
+        "question": "Do you offer emergency electrical service in Olathe?",
+        "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Olathe and we will advise on the fastest next step."
+      },
+      {
+        "question": "Are your electricians licensed to work in Olathe, Kansas?",
+        "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Kansas and pull permits through Johnson County when required for Olathe projects."
+      },
+      {
+        "question": "What electrical services do you provide in Olathe?",
+        "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Olathe homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+      },
+      {
+        "question": "How do I get a quote for electrical work in Olathe?",
+        "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+      }
+    ]
+  }
+}
