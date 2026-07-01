@@ -1,56 +1,1637 @@
 {
   "business": {
     "name": "Prestige Electric",
-    "legalName": "Prestige Electrical Contractors",
-    "tagline": "Trusted electrical solutions for Kansas City homes and businesses.",
-    "phone": "+1 (816) 548-9601",
+    "owner": "RJ Rossman",
+    "tagline": "Service and dependability you can count on.",
+    "phone": "(816) 548-9601",
+    "phoneDisplay": "+1 (816) 548-9601",
     "phoneHref": "tel:+18165489601",
-    "email": "info@prestigeelectricalcontractors.com",
-    "emailHref": "mailto:info@prestigeelectricalcontractors.com",
-    "location": "Belton, Missouri",
-    "serviceArea": [
-      "Kansas City",
-      "Belton",
-      "Harrisonville",
-      "Lee's Summit",
-      "Raymore",
-      "Overland Park",
-      "Olathe",
-      "Independence"
+    "email": "Prestigeelectric01@gmail.com",
+    "emailHref": "mailto:Prestigeelectric01@gmail.com",
+    "facebook": "https://www.facebook.com/PrestigeElectricKC",
+    "logo": "/assets/prestige-electric-logo.png",
+    "heroImage": "/assets/hero-kansas-city-electrical.jpg",
+    "serviceHeroImage": "/assets/service-hero-electrical-kitchen.png",
+    "locationHeroImage": "/assets/location-hero-kansas-city-skyline.png",
+    "hours": "Monday–Friday, 8:00 AM – 5:00 PM",
+    "timezone": "America/Chicago",
+    "about": "Family owned and operated electrical service company serving the greater Kansas City metropolitan area. Service and dependability you can count on.",
+    "aboutSection": "Prestige Electric is a family-owned and operated electrical services company serving homeowners and businesses across the greater Kansas City metro. Our electricians handle service upgrades, panel replacements, hot tub wiring, and electrical troubleshooting in Belton, Lee's Summit, Overland Park, Leawood, Lenexa, and Olathe. Count on us for service and dependability you won't have to second-guess.",
+    "differentiators": [
+      {
+        "title": "Up front flat rate pricing",
+        "description": "Know what to expect before work begins with clear, upfront flat rate pricing."
+      },
+      {
+        "title": "Licensed electricians",
+        "description": "Skilled, licensed professionals you can trust inside your home or business."
+      },
+      {
+        "title": "Lifetime craftsmanship warranty",
+        "description": "Quality workmanship backed by a lifetime craftsmanship warranty."
+      }
     ],
+    "location": "Belton, Missouri",
+    "address": {
+      "streetAddress": "",
+      "addressLocality": "Belton",
+      "addressRegion": "MO",
+      "postalCode": "64012",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "latitude": 38.812,
+      "longitude": -94.5339
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/Gidnu3SVFS64SbHx8",
+    "googleMapsFtid": "0x87c0fb8c0da3fe2f:0x823655cf4c3aeba8",
+    "mapEmbedUrl": "https://maps.google.com/maps?width=600&height=400&hl=en&q=kansas+city&t=&z=10&ie=UTF8&iwloc=B&output=embed",
+    "siteUrl": "https://prestigeelectricalcontractors.com",
     "primaryKeywords": [
       "Kansas City electrician",
-      "electrical contractor Kansas City",
-      "residential electrical services",
-      "commercial electrical services",
-      "panel upgrades",
-      "emergency electrical repairs"
+      "Belton electrician",
+      "electrical service upgrades",
+      "panel replacement Kansas City",
+      "hot tub electrician",
+      "electrical troubleshooting",
+      "electrical repair Kansas City",
+      "breaker box upgrade"
     ]
   },
   "services": [
     {
-      "title": "Service & Repairs",
-      "description": "Troubleshooting, outlet repairs, breaker issues, flickering lights, and safe code corrections."
+      "slug": "service-upgrades",
+      "title": "Service Upgrades",
+      "shortDescription": "Upgrade your electrical service for modern appliances, additions, and growing power needs.",
+      "description": "Prestige Electric provides professional electrical service upgrades for Kansas City metro homes and businesses. Whether you are adding a workshop, finishing a basement, or preparing for higher electrical demand, we help you upgrade safely and to code.",
+      "benefits": [
+        "Capacity planning for current and future power needs",
+        "Code-compliant upgrades for homes and light commercial spaces",
+        "Clear flat rate pricing before work begins"
+      ],
+      "faqs": [
+        {
+          "question": "How much does an electrical service upgrade cost in Kansas City?",
+          "answer": "Cost depends on your current service size, panel condition, utility requirements, and the target amperage. Prestige Electric provides upfront flat-rate pricing after an on-site evaluation so you know what to expect before work begins."
+        },
+        {
+          "question": "When do I need an electrical service upgrade?",
+          "answer": "Common signs include frequent breaker trips, flickering lights when appliances run, an outdated panel, no open breaker spaces, or plans for major additions like hot tubs, EV chargers, or workshop equipment."
+        },
+        {
+          "question": "What is the difference between a service upgrade and a panel replacement?",
+          "answer": "A service upgrade increases the capacity coming into the property, often including the meter base and service entrance. A panel replacement focuses on the distribution panel inside. Prestige Electric will recommend the right combination after reviewing your system."
+        },
+        {
+          "question": "Do you coordinate with the utility company?",
+          "answer": "Yes. Service upgrades often require utility disconnect and reconnect. Prestige Electric handles the electrical scope and coordinates timing so the upgrade is completed safely and to code."
+        },
+        {
+          "question": "Are your electricians licensed and insured?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians are licensed professionals, and we carry the insurance coverage required to protect your property during electrical work."
+        },
+        {
+          "question": "What areas do you serve for service upgrades?",
+          "answer": "We serve Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby Kansas City metro communities."
+        }
+      ],
+      "seo": {
+        "title": "Electrical Service Upgrades in Kansas City Metro | Prestige Electric",
+        "metaDescription": "Family-owned electrical service upgrades in Kansas City. Increase capacity for additions, workshops, and modern appliances. Upfront flat-rate pricing. Call (816) 548-9601.",
+        "h1": "Electrical Service Upgrades for the Kansas City Metro",
+        "serviceType": "Electrical Service Upgrade"
+      },
+      "page": {
+        "intro": {
+          "eyebrow": "Kansas City service upgrades",
+          "paragraphs": [
+            "An electrical service upgrade increases the capacity coming into your home or business so your panel can safely support today's appliances, HVAC loads, finished basements, workshops, and future additions. Prestige Electric is a family-owned and operated company providing service upgrades across the greater Kansas City metro for homeowners, landlords, and light commercial properties.",
+            "Our licensed electricians evaluate your current amperage, panel condition, and planned loads before recommending the right upgrade path. Whether you are preparing for a hot tub, EV charger, or whole-home renovation, we provide upfront flat-rate pricing and back qualifying work with a lifetime craftsmanship warranty."
+          ],
+          "image": {
+            "src": "/assets/service-intro-electrical-kitchen.png",
+            "alt": "Modern kitchen electrical and lighting work completed by Prestige Electric in a Kansas City home",
+            "width": 1024,
+            "height": 768
+          }
+        },
+        "symptoms": {
+          "eyebrow": "Signs you need an upgrade",
+          "heading": "When your home needs a service upgrade",
+          "intro": "These are the most common reasons Kansas City homeowners call about upgrading electrical service. If several apply at once, your system may be undersized for how you use power today.",
+          "items": [
+            {
+              "title": "Frequent breaker trips under normal use",
+              "text": "Breakers that trip when the dryer, HVAC, or kitchen appliances run together often mean the service or panel cannot handle combined load."
+            },
+            {
+              "title": "Planning a major addition or remodel",
+              "text": "Finished basements, garage workshops, and room additions usually add circuits. An upgrade ensures the service entrance can support the new demand."
+            },
+            {
+              "title": "Adding a hot tub, EV charger, or large appliance",
+              "text": "High-draw equipment often requires dedicated circuits and sufficient overall capacity. Upgrading first prevents repeated tripping and unsafe workarounds."
+            },
+            {
+              "title": "Flickering lights when appliances start",
+              "text": "Voltage drop when motors and compressors kick on can signal an undersized service, loose connections, or an aging panel struggling to keep up."
+            },
+            {
+              "title": "An older 60 or 100 amp service",
+              "text": "Many Kansas City metro homes still run on legacy service sizes that were fine decades ago but fall short for modern kitchens, laundry, and HVAC."
+            },
+            {
+              "title": "No open spaces left in the panel",
+              "text": "When every breaker slot is used, adding circuits without upgrading can lead to unsafe tandem breakers or overloaded bus bars."
+            },
+            {
+              "title": "Insurance or inspection requirements",
+              "text": "Some real estate transactions, insurance renewals, or permit inspections flag outdated service equipment that should be brought up to current standards."
+            },
+            {
+              "title": "Utility meter or mast damage",
+              "text": "Weather, age, or prior repairs to the service entrance may require coordinated utility and electrician work to restore safe, code-compliant power."
+            }
+          ]
+        },
+        "process": {
+          "eyebrow": "Our process",
+          "heading": "What happens when you schedule a service upgrade",
+          "steps": [
+            {
+              "title": "Share your plans and current setup",
+              "text": "Call (816) 548-9601 or submit the form below. Tell us about planned additions, major appliances, and any tripping or capacity concerns. Photos of your panel and meter help us prepare."
+            },
+            {
+              "title": "On-site evaluation and clear pricing",
+              "text": "A licensed electrician reviews your service size, panel, grounding, and load needs. Prestige Electric provides upfront flat-rate pricing before work begins so you can approve the upgrade with confidence."
+            },
+            {
+              "title": "Professional upgrade and final testing",
+              "text": "We coordinate the upgrade to code, work with the utility when required, and test the system before sign-off. Work is backed by our lifetime craftsmanship warranty."
+            }
+          ]
+        },
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Kansas City homeowners trust Prestige Electric for service upgrades",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, based in Belton and serving the full Kansas City metro. Service upgrades are not one-size-fits-all, and our team takes time to match capacity to how you actually use your home or business.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and upgrades done right the first time."
+          ],
+          "bullets": [
+            "Capacity planning for current and future power needs",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ],
+          "image": {
+            "src": "/assets/service-why-prestige-electric-living-room.png",
+            "alt": "Modern living room in a Kansas City home with professional electrical and lighting work by Prestige Electric",
+            "width": 960,
+            "height": 640
+          }
+        },
+        "serviceArea": {
+          "heading": "Electrical service upgrades across the Kansas City metro",
+          "paragraph": "Prestige Electric provides electrical service upgrades in Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the greater Kansas City metropolitan area."
+        },
+        "midCta": {
+          "heading": "Planning an addition or major appliance?",
+          "text": "Call now to discuss your load requirements and schedule a licensed electrician. Upfront pricing. No guesswork."
+        },
+        "relatedServices": [
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Sometimes a service upgrade and panel replacement go hand in hand for safer, modern power distribution."
+          },
+          {
+            "slug": "breaker-box-upgrade",
+            "anchor": "breaker box upgrade",
+            "description": "Need more breaker spaces or modern protection? A breaker box upgrade may be part of your capacity plan."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Adding a spa often requires a dedicated circuit and sufficient service capacity before delivery day."
+          },
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Addressing tripping breakers or wiring faults before upgrading helps ensure the right long-term solution."
+          }
+        ],
+        "closingCta": {
+          "heading": "Schedule an electrical service upgrade with a Kansas City professional",
+          "text": "Tell us about your project and current electrical setup. We will recommend the safest, most practical upgrade path. Call (816) 548-9601 to get started."
+        }
+      }
     },
     {
-      "title": "Panel Upgrades",
-      "description": "Modern electrical panels, sub-panels, surge protection, and capacity upgrades for growing power needs."
+      "slug": "panel-replacements",
+      "title": "Panel Replacements",
+      "shortDescription": "Replace outdated or unsafe electrical panels with modern, dependable equipment.",
+      "description": "If your panel is outdated, overcrowded, or no longer safe, Prestige Electric can replace it with a modern electrical panel built for reliable performance. We serve homeowners and businesses across the Kansas City metro with clean, professional panel replacement work.",
+      "benefits": [
+        "Safer power distribution for your home or business",
+        "Room for additional circuits and future upgrades",
+        "Professional installation backed by a lifetime craftsmanship warranty"
+      ],
+      "faqs": [
+        {
+          "question": "How much does electrical panel replacement cost in Kansas City?",
+          "answer": "Cost depends on panel size, the number of circuits, accessibility, and whether the service entrance also needs work. Prestige Electric provides upfront flat-rate pricing after an on-site inspection."
+        },
+        {
+          "question": "How do I know if my panel needs to be replaced?",
+          "answer": "Warning signs include buzzing panels, warm breakers, corrosion, frequent tripping, recalled panel brands, or a panel with no open spaces for new circuits."
+        },
+        {
+          "question": "Can you replace panels in older Kansas City homes?",
+          "answer": "Yes. Prestige Electric handles panel replacements in older homes and helps bring systems up to safer, more dependable standards."
+        },
+        {
+          "question": "How long does a panel replacement take?",
+          "answer": "Many residential panel replacements are completed in a day, though complex jobs or utility coordination may take longer. We will give you a clear timeline after the on-site evaluation."
+        },
+        {
+          "question": "Are your electricians licensed and insured?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians are licensed professionals, and we carry the insurance coverage required to protect your property during electrical work."
+        },
+        {
+          "question": "What areas do you serve for panel replacement?",
+          "answer": "We serve Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby Kansas City metro communities."
+        }
+      ],
+      "seo": {
+        "title": "Electrical Panel Replacement in Kansas City Metro | Prestige Electric",
+        "metaDescription": "Family-owned electrical panel replacement in Kansas City. Replace outdated or unsafe panels with modern equipment. Upfront flat-rate pricing. Call (816) 548-9601.",
+        "h1": "Electrical Panel Replacement Services for the Kansas City Metro",
+        "serviceType": "Electrical Panel Replacement"
+      },
+      "page": {
+        "intro": {
+          "eyebrow": "Kansas City panel replacement",
+          "paragraphs": [
+            "Electrical panel replacement swaps an outdated, overcrowded, or failing breaker panel for modern equipment that distributes power safely throughout your home or business. Prestige Electric is a family-owned and operated company providing panel replacements across the greater Kansas City metro for homeowners, landlords, and light commercial properties.",
+            "Our licensed electricians inspect your existing panel, grounding, and branch circuits before recommending the right replacement. Whether your panel is decades old or simply out of space, we provide upfront flat-rate pricing and back qualifying work with a lifetime craftsmanship warranty."
+          ],
+          "image": {
+            "src": "/assets/panel-upgrade-electrical-work.jpg",
+            "alt": "Electrical panel upgrade completed by Prestige Electric in the Kansas City metro",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "symptoms": {
+          "eyebrow": "Signs you need a new panel",
+          "heading": "When to replace your electrical panel",
+          "intro": "These warning signs appear in Kansas City homes with aging or overloaded panels. If you notice any of them, schedule a licensed electrician before the problem worsens.",
+          "items": [
+            {
+              "title": "Buzzing or crackling from the panel",
+              "text": "Unusual sounds from the breaker box often indicate loose bus connections, failing breakers, or arcing inside the enclosure."
+            },
+            {
+              "title": "Warm breakers or a hot panel cover",
+              "text": "Heat at the panel means connections or breakers are under stress. This is a safety concern that should be inspected promptly."
+            },
+            {
+              "title": "Corrosion or rust on the panel",
+              "text": "Moisture intrusion or age can corrode panel components, reducing reliability and increasing fire risk."
+            },
+            {
+              "title": "Frequent breaker trips",
+              "text": "Breakers that trip repeatedly may be doing their job on overloaded circuits, or the panel itself may no longer handle your home's demand."
+            },
+            {
+              "title": "Federal Pacific, Zinsco, or other recalled brands",
+              "text": "Certain legacy panel brands are known safety concerns. Replacement is often the recommended path for long-term peace of mind."
+            },
+            {
+              "title": "No room for new circuits",
+              "text": "When every slot is full, adding hot tubs, EV chargers, or basement circuits may require a larger panel with open capacity."
+            },
+            {
+              "title": "Flickering lights across multiple rooms",
+              "text": "Widespread dimming or flickering can trace back to a failing main connection or deteriorating panel components."
+            },
+            {
+              "title": "Home built before modern code standards",
+              "text": "Older Kansas City metro homes may still have panels that never accounted for today's kitchen, laundry, and HVAC loads."
+            }
+          ]
+        },
+        "process": {
+          "eyebrow": "Our process",
+          "heading": "What happens when you schedule a panel replacement",
+          "steps": [
+            {
+              "title": "Describe your panel and concerns",
+              "text": "Call (816) 548-9601 or use the form below. Share the panel brand if you know it, any tripping or buzzing, and plans for new circuits. Photos of the panel label help us prepare."
+            },
+            {
+              "title": "On-site inspection and upfront pricing",
+              "text": "A licensed electrician evaluates the panel, feeder, grounding, and overall load. Prestige Electric provides upfront flat-rate pricing before replacement work begins."
+            },
+            {
+              "title": "Clean replacement and system testing",
+              "text": "We install the new panel to code, reconnect circuits properly, and test before sign-off. Work is backed by our lifetime craftsmanship warranty."
+            }
+          ]
+        },
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Kansas City homeowners choose Prestige Electric for panel replacement",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, based in Belton and serving the full Kansas City metro. Panel replacement is major work, and our team treats your home with the same care we would our own.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and panel work done right the first time."
+          ],
+          "bullets": [
+            "Safer power distribution for your home or business",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ],
+          "image": {
+            "src": "/assets/service-why-prestige-electric-living-room.png",
+            "alt": "Modern living room in a Kansas City home served by Prestige Electric",
+            "width": 960,
+            "height": 640
+          }
+        },
+        "serviceArea": {
+          "heading": "Electrical panel replacement across the Kansas City metro",
+          "paragraph": "Prestige Electric provides electrical panel replacements in Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the greater Kansas City metropolitan area."
+        },
+        "midCta": {
+          "heading": "Worried about your electrical panel?",
+          "text": "Call now to describe what you are seeing and schedule a licensed electrician. Upfront pricing. No guesswork."
+        },
+        "relatedServices": [
+          {
+            "slug": "breaker-box-upgrade",
+            "anchor": "breaker box upgrade",
+            "description": "Need more capacity or modern breakers without a full service change? A breaker box upgrade may be the right fit."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Panel replacement is often paired with a service upgrade when the home needs more overall capacity."
+          },
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Tripping breakers or partial outages may need repair first, or they may point to a panel that should be replaced."
+          },
+          {
+            "slug": "troubleshooting",
+            "anchor": "electrical troubleshooting",
+            "description": "Not sure if the panel is the root cause? Start with a professional diagnosis."
+          }
+        ],
+        "closingCta": {
+          "heading": "Schedule electrical panel replacement with a Kansas City professional",
+          "text": "Tell us about your current panel and any warning signs. We will recommend the safest, most practical solution. Call (816) 548-9601 to get started."
+        }
+      }
     },
     {
-      "title": "Lighting & Fans",
-      "description": "Interior lighting, exterior security lighting, ceiling fans, recessed lighting, and efficiency upgrades."
+      "slug": "hot-tubs",
+      "title": "Hot Tubs",
+      "heroImage": "/assets/hot-tub-electrical-work.jpg",
+      "shortDescription": "Dedicated hot tub circuits and safe electrical hookups for your backyard oasis.",
+      "description": "Hot tubs require the right dedicated circuit and safe installation. Prestige Electric installs and connects hot tub electrical systems for homeowners across Belton, Lee's Summit, Overland Park, and the greater Kansas City metro.",
+      "benefits": [
+        "Proper GFCI protection and dedicated circuits",
+        "Safe wiring for outdoor and spa installations",
+        "Coordination with your hot tub delivery and setup timeline"
+      ],
+      "faqs": [
+        {
+          "question": "How much does hot tub wiring cost in Kansas City?",
+          "answer": "Cost depends on amperage, wire run length, panel capacity, trenching needs, and disconnect requirements. Prestige Electric provides upfront flat-rate pricing after reviewing your spa specs and site layout."
+        },
+        {
+          "question": "Does a hot tub need a dedicated circuit?",
+          "answer": "Yes. Most hot tubs require a dedicated circuit sized to manufacturer specifications. Prestige Electric installs the correct wiring and GFCI protection for safe operation."
+        },
+        {
+          "question": "Can you install hot tub wiring before delivery?",
+          "answer": "Yes. We recommend completing the electrical connection before delivery so your spa can be filled and started sooner."
+        },
+        {
+          "question": "Do I need a permit for hot tub wiring?",
+          "answer": "Most jurisdictions require permits and inspections for new spa circuits. Prestige Electric handles installations to code and can advise on local permit requirements for your project."
+        },
+        {
+          "question": "Are your electricians licensed and insured?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians are licensed professionals, and we carry the insurance coverage required to protect your property during electrical work."
+        },
+        {
+          "question": "What areas do you serve for hot tub wiring?",
+          "answer": "We serve Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby Kansas City metro communities."
+        }
+      ],
+      "seo": {
+        "title": "Hot Tub Wiring in Kansas City Metro | Prestige Electric",
+        "metaDescription": "Family-owned hot tub wiring in Kansas City. Dedicated circuits, GFCI protection, and code-compliant hookups. Upfront flat-rate pricing. Call (816) 548-9601.",
+        "h1": "Hot Tub Wiring Services for the Kansas City Metro",
+        "serviceType": "Hot Tub Wiring"
+      },
+      "page": {
+        "intro": {
+          "eyebrow": "Kansas City hot tub wiring",
+          "paragraphs": [
+            "Hot tub wiring includes the dedicated circuit, GFCI protection, and outdoor-rated connection your spa manufacturer requires for safe operation. Prestige Electric is a family-owned and operated company providing hot tub electrical work across the greater Kansas City metro for homeowners preparing for delivery day.",
+            "Our licensed electricians review your spa specifications, panel capacity, and run path before installation. Whether you need a new circuit from the panel or a connection at the tub location, we provide upfront flat-rate pricing and back qualifying work with a lifetime craftsmanship warranty."
+          ],
+          "image": {
+            "src": "/assets/hot-tub-electrical-work.jpg",
+            "alt": "Hot tub electrical wiring installed by Prestige Electric in the Kansas City metro",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "symptoms": {
+          "eyebrow": "Before you buy or deliver",
+          "heading": "What your hot tub installation needs electrically",
+          "intro": "Most hot tub delivery delays trace back to electrical requirements that were not ready in time. Confirm these details before your spa arrives.",
+          "items": [
+            {
+              "title": "No dedicated circuit yet",
+              "text": "Hot tubs require their own circuit sized to the manufacturer's amperage and voltage specifications, not a shared backyard outlet."
+            },
+            {
+              "title": "Uncertain panel capacity",
+              "text": "Adding a 40 or 50 amp load may require open breaker spaces or a service upgrade if your panel is already near its limit."
+            },
+            {
+              "title": "Distance from the panel to the tub pad",
+              "text": "Longer runs may need larger wire sizes. Planning the route early avoids trenching surprises close to delivery."
+            },
+            {
+              "title": "Missing GFCI protection",
+              "text": "Code requires proper GFCI protection for spa circuits. The protection must be installed at the correct location per current standards."
+            },
+            {
+              "title": "Outdoor disconnect not in place",
+              "text": "Many installations need a visible disconnect within sight of the tub. This should be planned before the spa is filled and powered."
+            },
+            {
+              "title": "Manufacturer specs not reviewed",
+              "text": "Each spa brand has specific electrical requirements. Wiring should match the nameplate, not a generic guess."
+            },
+            {
+              "title": "Delivery scheduled before inspection",
+              "text": "Scheduling electrical work after delivery often means waiting to use your spa. Wiring ahead of delivery is the smoother path."
+            },
+            {
+              "title": "Older home with limited outdoor circuits",
+              "text": "Kansas City metro homes built before outdoor living upgrades may need new conduit runs and panel work to support a spa safely."
+            }
+          ]
+        },
+        "process": {
+          "eyebrow": "Our process",
+          "heading": "What happens when you schedule hot tub wiring",
+          "steps": [
+            {
+              "title": "Share your spa specs and timeline",
+              "text": "Call (816) 548-9601 or submit the form below. Provide the manufacturer electrical requirements and your target delivery date so we can schedule ahead of setup."
+            },
+            {
+              "title": "Site review and upfront pricing",
+              "text": "A licensed electrician confirms panel capacity, run path, disconnect location, and GFCI needs. Prestige Electric provides upfront flat-rate pricing before work begins."
+            },
+            {
+              "title": "Installation and ready-for-power sign-off",
+              "text": "We install the circuit to code, coordinate with your delivery timeline, and leave the connection ready for your spa technician. Work is backed by our lifetime craftsmanship warranty."
+            }
+          ]
+        },
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Kansas City homeowners choose Prestige Electric for hot tub wiring",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, based in Belton and serving the full Kansas City metro. We know delivery day is exciting, and we help you avoid the frustration of a spa sitting unused while wiring catches up.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and hot tub circuits installed right the first time."
+          ],
+          "bullets": [
+            "Proper GFCI protection and dedicated circuits",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Coordination with your delivery timeline"
+          ],
+          "image": {
+            "src": "/assets/hot-tub-electrical-work.jpg",
+            "alt": "Hot tub electrical wiring installed by Prestige Electric in the Kansas City metro",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "serviceArea": {
+          "heading": "Hot tub wiring across the Kansas City metro",
+          "paragraph": "Prestige Electric provides hot tub wiring in Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the greater Kansas City metropolitan area."
+        },
+        "midCta": {
+          "heading": "Hot tub delivery coming up?",
+          "text": "Call now to confirm electrical requirements and schedule installation before delivery day. Upfront pricing. No guesswork."
+        },
+        "relatedServices": [
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "If your panel is full or undersized, a service upgrade may be needed before the spa circuit can be added."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "An older panel with no open spaces may need replacement to support a dedicated hot tub circuit."
+          },
+          {
+            "slug": "breaker-box-upgrade",
+            "anchor": "breaker box upgrade",
+            "description": "Adding spa capacity sometimes starts with a breaker box upgrade for modern protection and open spaces."
+          },
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Existing outdoor circuits should be safe before sharing a yard with water and spa equipment."
+          }
+        ],
+        "closingCta": {
+          "heading": "Schedule hot tub wiring with a Kansas City professional",
+          "text": "Share your spa specifications and delivery date. We will confirm the right circuit and get your connection ready. Call (816) 548-9601 to get started."
+        }
+      }
     },
     {
-      "title": "EV Chargers",
-      "description": "Dedicated circuits and Level 2 EV charger installations for homes, garages, and workplaces."
+      "slug": "troubleshooting",
+      "title": "Electrical Troubleshooting",
+      "shortDescription": "Fast diagnosis for flickering lights, dead outlets, tripping breakers, and power problems.",
+      "description": "Electrical issues can be frustrating and unsafe. Prestige Electric troubleshoots common and complex electrical problems for Kansas City area homeowners and businesses, then recommends the safest, most practical fix.",
+      "benefits": [
+        "Clear diagnosis instead of guesswork",
+        "Repairs for outlets, breakers, lighting, and wiring issues",
+        "Dependable service from a family owned local company"
+      ],
+      "faqs": [
+        {
+          "question": "How much does electrical troubleshooting cost in Kansas City?",
+          "answer": "Cost depends on the complexity of the fault and whether repair work is needed in the same visit. Prestige Electric provides upfront flat-rate pricing after the initial diagnosis so you can decide before work proceeds."
+        },
+        {
+          "question": "What electrical problems can you troubleshoot?",
+          "answer": "We troubleshoot flickering lights, dead outlets, tripping breakers, partial power loss, buzzing switches, GFCI and AFCI trips, and other common electrical concerns."
+        },
+        {
+          "question": "Do you offer flat rate pricing for troubleshooting?",
+          "answer": "Yes. Prestige Electric provides upfront flat-rate pricing so you can make an informed decision before repairs begin."
+        },
+        {
+          "question": "What is the difference between troubleshooting and repair?",
+          "answer": "Troubleshooting finds the cause of a problem. Repair is the work to fix it. Prestige Electric often handles both in the same visit when possible."
+        },
+        {
+          "question": "Are your electricians licensed and insured?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians are licensed professionals, and we carry the insurance coverage required to protect your property during electrical work."
+        },
+        {
+          "question": "What areas do you serve for troubleshooting?",
+          "answer": "We serve Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby Kansas City metro communities."
+        }
+      ],
+      "seo": {
+        "title": "Electrical Troubleshooting in Kansas City Metro | Prestige Electric",
+        "metaDescription": "Family-owned electrical troubleshooting in Kansas City. Diagnose flickering lights, dead outlets, tripping breakers, and power problems. Call (816) 548-9601.",
+        "h1": "Electrical Troubleshooting Services for the Kansas City Metro",
+        "serviceType": "Electrical Troubleshooting"
+      },
+      "page": {
+        "intro": {
+          "eyebrow": "Kansas City troubleshooting",
+          "paragraphs": [
+            "Electrical troubleshooting is the process of finding why something is not working, from a single dead outlet to intermittent power loss across part of your home. Prestige Electric is a family-owned and operated company providing troubleshooting across the greater Kansas City metro for homeowners, landlords, and light commercial properties.",
+            "Our licensed electricians use systematic testing to isolate the fault, explain what they find in plain language, and recommend the safest fix. Whether the issue is a tripped GFCI, a failing breaker, or hidden wiring damage, we provide upfront flat-rate pricing and back qualifying work with a lifetime craftsmanship warranty."
+          ],
+          "image": {
+            "src": "/assets/lighting-repair-electrical-work.jpg",
+            "alt": "Lighting repair completed by Prestige Electric in the Kansas City metro",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "symptoms": {
+          "eyebrow": "Signs something is wrong",
+          "heading": "Electrical problems we troubleshoot",
+          "intro": "These are the issues Kansas City homeowners call us to diagnose. Troubleshooting finds the cause so you are not guessing or replacing parts that are not the problem.",
+          "items": [
+            {
+              "title": "Flickering or dimming lights",
+              "text": "Intermittent lighting changes may involve loose neutrals, failing switches, overloaded circuits, or panel connections that need professional testing."
+            },
+            {
+              "title": "Dead outlets or switches",
+              "text": "A single dead device may trace to a tripped GFCI upstream, a failed outlet, or a broken connection in the circuit."
+            },
+            {
+              "title": "Breakers that trip repeatedly",
+              "text": "Repeated trips can mean overload, a ground fault, or a failing breaker. Resetting without diagnosis leaves the underlying issue in place."
+            },
+            {
+              "title": "Partial power loss",
+              "text": "When one room or half the home loses power, the fault may be at the panel, a subpanel, or a damaged leg of the service."
+            },
+            {
+              "title": "Buzzing switches or humming panels",
+              "text": "Unusual sounds often signal arcing or loose components that should be tested before they cause further damage."
+            },
+            {
+              "title": "GFCI or AFCI nuisance tripping",
+              "text": "Modern protection devices trip for a reason. Troubleshooting identifies whether the fault is the device, the load, or the wiring."
+            },
+            {
+              "title": "Appliances behaving inconsistently",
+              "text": "Motors that stall, electronics that reset, or lights that surge may point to voltage problems worth tracing at the source."
+            },
+            {
+              "title": "Problems after DIY or storm damage",
+              "text": "Recent work or weather events can disturb connections. A structured diagnosis is the fastest path to a safe repair."
+            }
+          ]
+        },
+        "process": {
+          "eyebrow": "Our process",
+          "heading": "What happens when you call for troubleshooting",
+          "steps": [
+            {
+              "title": "Describe the symptoms clearly",
+              "text": "Call (816) 548-9601 or use the form below. Explain what is happening, when it started, and whether breakers or GFCIs have tripped. For burning smells or sparking, mention that when you call."
+            },
+            {
+              "title": "Systematic diagnosis and upfront pricing",
+              "text": "A licensed electrician tests circuits, connections, and protection devices to find the root cause. Prestige Electric provides upfront flat-rate pricing before repair work begins."
+            },
+            {
+              "title": "Repair or clear next steps",
+              "text": "When the fix is straightforward, we complete it in the same visit when possible. If the issue requires panel or service work, we explain the recommended path clearly."
+            }
+          ]
+        },
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Kansas City homeowners choose Prestige Electric for troubleshooting",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, based in Belton and serving the full Kansas City metro. Good troubleshooting saves time and money by fixing the actual cause, not just the symptom.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and diagnoses that lead to lasting fixes."
+          ],
+          "bullets": [
+            "Clear diagnosis instead of guesswork",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before repair work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ],
+          "image": {
+            "src": "/assets/service-why-prestige-electric-living-room.png",
+            "alt": "Living room in a Kansas City home with professional lighting by Prestige Electric",
+            "width": 960,
+            "height": 640
+          }
+        },
+        "serviceArea": {
+          "heading": "Electrical troubleshooting across the Kansas City metro",
+          "paragraph": "Prestige Electric provides electrical troubleshooting in Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the greater Kansas City metropolitan area."
+        },
+        "midCta": {
+          "heading": "Electrical problem you cannot explain?",
+          "text": "Call now to describe the symptoms and schedule a licensed electrician. Upfront pricing. No guesswork."
+        },
+        "relatedServices": [
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Once the fault is found, Prestige Electric can complete the repair to restore safe, reliable power."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Diagnosis sometimes reveals a panel that is failing or out of capacity and should be replaced."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Repeated overload symptoms may mean the service itself is undersized for how you use power."
+          },
+          {
+            "slug": "breaker-box-upgrade",
+            "anchor": "breaker box upgrade",
+            "description": "Faulty or outdated breakers may require a breaker box upgrade rather than repeated resets."
+          }
+        ],
+        "closingCta": {
+          "heading": "Schedule electrical troubleshooting with a Kansas City professional",
+          "text": "Tell us what is going wrong and we will trace it to the source. Call (816) 548-9601 to get started."
+        }
+      }
     },
     {
-      "title": "Commercial Electrical",
-      "description": "Tenant finishes, maintenance, lighting retrofits, dedicated circuits, and repair support for local businesses."
+      "slug": "electrical-repair",
+      "title": "Electrical Repair",
+      "shortDescription": "Professional repairs for outlets, switches, wiring, lighting, and everyday electrical issues.",
+      "description": "When something stops working or needs attention, Prestige Electric provides dependable electrical repair for Kansas City metro homes and businesses. From outlet and switch replacement to wiring fixes and lighting repairs, we help restore safe, reliable power.",
+      "benefits": [
+        "Repairs for outlets, switches, lighting, and wiring problems",
+        "Licensed electricians who diagnose issues correctly the first time",
+        "Up front flat rate pricing before repair work begins"
+      ],
+      "seo": {
+        "title": "Electrical Repair in Kansas City Metro | Prestige Electric",
+        "metaDescription": "Family-owned electrical repair in Kansas City. We fix dead outlets, tripping breakers, flickering lights, and wiring issues. Upfront flat-rate pricing. Call (816) 548-9601.",
+        "h1": "Electrical Repair Services for the Kansas City Metro",
+        "serviceType": "Electrical Repair"
+      },
+      "page": {
+        "intro": {
+          "eyebrow": "Kansas City electrical repair",
+          "paragraphs": [
+            "Electrical repair covers the work needed when something in your home or business stops working safely, whether that is a dead outlet, a switch that buzzes, a light that flickers, or wiring that can no longer be trusted. Prestige Electric is a family-owned and operated company providing electrical repair across the greater Kansas City metro for homeowners, landlords, and light commercial properties.",
+            "Our licensed electricians focus on finding the real cause of the problem, explaining your options in plain language, and completing repairs that meet current code. Whether you need a single outlet replaced or help after a partial power loss, we bring upfront flat-rate pricing and a lifetime craftsmanship warranty to every job."
+          ],
+          "image": {
+            "src": "/assets/electrical-repair-electrical-work.jpg",
+            "alt": "Electrical repair completed by Prestige Electric in the Kansas City metro",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "symptoms": {
+          "eyebrow": "Signs you need a repair",
+          "heading": "Common electrical problems we repair",
+          "intro": "These are the issues Kansas City homeowners call us about most often. If you notice any of them, stop using the affected circuit when you can and schedule a licensed electrician. Some symptoms point to serious safety risks.",
+          "items": [
+            {
+              "title": "Flickering or dimming lights",
+              "text": "Lights that pulse, dim when appliances run, or brighten without reason may signal loose connections, overloaded circuits, or panel problems, not just a bad bulb."
+            },
+            {
+              "title": "Dead outlets or switches",
+              "text": "An outlet or switch that suddenly stops working may have a failed device, a tripped GFCI upstream, or damaged wiring inside the wall."
+            },
+            {
+              "title": "Breakers that keep tripping",
+              "text": "Repeated trips mean the circuit is overloaded or there is a fault. Resetting the breaker without finding the cause can leave a fire or shock hazard in place."
+            },
+            {
+              "title": "Burning smell or scorch marks",
+              "text": "Any acrid odor, discoloration around an outlet, or warm switch plates requires immediate attention. Turn off the circuit and call for repair."
+            },
+            {
+              "title": "Warm outlets, plugs, or switch plates",
+              "text": "Heat at a connection point often means loose terminals or failing components. This is a common warning sign before more serious damage occurs."
+            },
+            {
+              "title": "Partial power loss in the home",
+              "text": "When one room or half of your circuits go dark, the issue may involve a main panel connection, a failed breaker, or utility-side problems we can help isolate."
+            },
+            {
+              "title": "Buzzing switches or humming fixtures",
+              "text": "Unusual sounds from switches, dimmers, or panels usually mean arcing or loose internal parts that should be inspected and repaired."
+            },
+            {
+              "title": "Frequent bulb burnouts",
+              "text": "Bulbs that fail quickly in the same fixture can indicate voltage issues, poor connections, or incompatible dimmer wiring."
+            }
+          ]
+        },
+        "process": {
+          "heading": "What happens when you call for electrical repair",
+          "steps": [
+            {
+              "title": "Tell us what is happening",
+              "text": "Call (816) 548-9601 or submit the request form below. Describe the symptoms, when they started, and whether any breakers have tripped. For urgent safety concerns like burning smells, sparking, or shock, mention that when you call."
+            },
+            {
+              "title": "On-site diagnosis and upfront pricing",
+              "text": "A licensed electrician inspects the affected circuits, identifies the root cause, and explains the safest repair path. Prestige Electric provides upfront flat-rate pricing before work begins so you can approve with confidence."
+            },
+            {
+              "title": "Professional repair and clean finish",
+              "text": "We complete the repair to code, test the circuit, and walk you through what was fixed. Work is backed by our lifetime craftsmanship warranty."
+            }
+          ]
+        },
+        "whyChoose": {
+          "heading": "Why Kansas City homeowners choose Prestige Electric",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, based in Belton and serving the full Kansas City metro. We are licensed and insured, and our team takes pride in careful workmanship inside your home or business.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and repairs done right the first time."
+          ],
+          "bullets": [
+            "Family-owned and operated local company",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before repair work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ],
+          "image": {
+            "src": "/assets/service-why-prestige-electric-living-room.png",
+            "alt": "Modern living room with lighting and fireplace in a Kansas City home served by Prestige Electric",
+            "width": 960,
+            "height": 640
+          }
+        },
+        "serviceArea": {
+          "heading": "Electrical repair across the Kansas City metro",
+          "paragraph": "Prestige Electric provides electrical repair in Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the greater Kansas City metropolitan area."
+        },
+        "midCta": {
+          "heading": "Need electrical repair today?",
+          "text": "Call now to describe the issue and schedule a licensed electrician. Upfront pricing. No guesswork."
+        },
+        "relatedServices": [
+          {
+            "slug": "troubleshooting",
+            "anchor": "electrical troubleshooting",
+            "description": "Not sure what is causing the problem? Start with a professional diagnosis before committing to a repair."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "When repairs point to an outdated or overloaded panel, a full replacement may be the safer long-term solution."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Adding major loads or finishing a basement? A service upgrade may be needed alongside point repairs."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Planning a spa or hot tub? Dedicated circuits and GFCI protection should be installed before delivery."
+          }
+        ],
+        "closingCta": {
+          "heading": "Schedule electrical repair with a Kansas City professional",
+          "text": "Tell us what is going wrong and we will recommend the safest, most practical fix. For urgent electrical concerns, call (816) 548-9601 now."
+        }
+      },
+      "faqs": [
+        {
+          "question": "How much does electrical repair cost in Kansas City?",
+          "answer": "Cost depends on the repair. A simple outlet replacement is different from tracing a fault in older wiring. Prestige Electric provides upfront flat-rate pricing after diagnosing the issue so you know what to expect before work begins."
+        },
+        {
+          "question": "Is a flickering light dangerous?",
+          "answer": "It can be. Flickering sometimes means a loose connection, failing switch, or overloaded circuit. If flickering is persistent, affects multiple fixtures, or comes with buzzing or warmth, schedule a licensed electrician to inspect it."
+        },
+        {
+          "question": "Do you offer emergency electrical repair?",
+          "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns and we will advise on the fastest next step."
+        },
+        {
+          "question": "What is the difference between electrical repair and troubleshooting?",
+          "answer": "Troubleshooting focuses on diagnosing the cause of a problem. Electrical repair is the work to fix it, such as replacing an outlet, repairing wiring, or correcting a faulty connection. Prestige Electric often handles both in the same visit when possible."
+        },
+        {
+          "question": "Are your electricians licensed and insured?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians are licensed professionals, and we carry the insurance coverage required to protect your property during electrical work."
+        },
+        {
+          "question": "What areas do you serve for electrical repair?",
+          "answer": "We serve Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby Kansas City metro communities."
+        }
+      ]
     },
     {
-      "title": "Rewiring & Remodels",
-      "description": "Whole-home rewiring, remodel wiring, appliance circuits, and electrical planning for renovations."
+      "slug": "breaker-box-upgrade",
+      "title": "Breaker Box Upgrade",
+      "shortDescription": "Upgrade your breaker panel for safer power distribution and modern electrical demand.",
+      "description": "An outdated breaker box can limit your home's electrical capacity and safety. Prestige Electric upgrades breaker panels for homeowners and businesses across the Kansas City metro, helping your system handle today's appliances, HVAC loads, and future additions.",
+      "benefits": [
+        "Improved safety with modern breakers and panel equipment",
+        "More capacity for appliances, workshops, and home additions",
+        "Code-compliant upgrades from licensed local electricians"
+      ],
+      "faqs": [
+        {
+          "question": "How much does a breaker box upgrade cost in Kansas City?",
+          "answer": "Cost depends on panel size, the number of circuits, breaker types required, and whether the service entrance also needs work. Prestige Electric provides upfront flat-rate pricing after an on-site evaluation."
+        },
+        {
+          "question": "When should I upgrade my breaker box?",
+          "answer": "Consider an upgrade if your panel is outdated, you lack open breaker spaces, breakers trip frequently, or you are adding major loads like hot tubs, EV chargers, or workshop equipment."
+        },
+        {
+          "question": "Is a breaker box upgrade different from a panel replacement?",
+          "answer": "They are related. A breaker box upgrade focuses on improving capacity, safety, and modern breaker protection. A full panel replacement may be needed when the enclosure or bus is failing. Prestige Electric will recommend the right solution after reviewing your system."
+        },
+        {
+          "question": "Can you add AFCI or GFCI breakers during an upgrade?",
+          "answer": "Yes. When upgrading, we can install the appropriate combination of standard, AFCI, and GFCI breakers to meet current code and protect specific circuits."
+        },
+        {
+          "question": "Are your electricians licensed and insured?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians are licensed professionals, and we carry the insurance coverage required to protect your property during electrical work."
+        },
+        {
+          "question": "What areas do you serve for breaker box upgrades?",
+          "answer": "We serve Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby Kansas City metro communities."
+        }
+      ],
+      "seo": {
+        "title": "Breaker Box Upgrade in Kansas City Metro | Prestige Electric",
+        "metaDescription": "Family-owned breaker box upgrades in Kansas City. Modern breakers, safer power distribution, and added capacity. Upfront flat-rate pricing. Call (816) 548-9601.",
+        "h1": "Breaker Box Upgrade Services for the Kansas City Metro",
+        "serviceType": "Breaker Box Upgrade"
+      },
+      "page": {
+        "intro": {
+          "eyebrow": "Kansas City breaker box upgrades",
+          "paragraphs": [
+            "A breaker box upgrade improves how power is distributed through your home by replacing outdated panel equipment, adding breaker spaces, and installing modern overcurrent protection. Prestige Electric is a family-owned and operated company providing breaker box upgrades across the greater Kansas City metro for homeowners and light commercial properties.",
+            "Our licensed electricians review your current panel brand, available capacity, and future plans before recommending the right upgrade. Whether you need more spaces for new circuits or safer breakers than what is in the box today, we provide upfront flat-rate pricing and back qualifying work with a lifetime craftsmanship warranty."
+          ],
+          "image": {
+            "src": "/assets/breaker-box-upgrade-electrical-work.jpg",
+            "alt": "Breaker box upgrade completed by Prestige Electric in the Kansas City metro",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "symptoms": {
+          "eyebrow": "Signs you need an upgrade",
+          "heading": "When to upgrade your breaker box",
+          "intro": "These signs suggest your breaker box may not meet today's safety standards or your home's electrical demand. A licensed electrician can confirm whether an upgrade is the right step.",
+          "items": [
+            {
+              "title": "No open breaker spaces",
+              "text": "When every slot is occupied, adding circuits for hot tubs, EV chargers, or basement finishes requires a larger or replacement panel."
+            },
+            {
+              "title": "Outdated or recalled panel brands",
+              "text": "Certain legacy panels and breakers are known reliability concerns. Upgrading to modern equipment reduces long-term risk."
+            },
+            {
+              "title": "Breakers that will not reset",
+              "text": "A breaker that trips instantly or feels loose may have failed internally and should be evaluated as part of the panel."
+            },
+            {
+              "title": "Double-tapped or overcrowded wiring",
+              "text": "Improper connections inside the panel are a fire hazard. An upgrade or reorganization may be needed to meet code."
+            },
+            {
+              "title": "Adding major new loads",
+              "text": "Workshops, tankless water heaters, and spa circuits often require both new breakers and a panel that can support them safely."
+            },
+            {
+              "title": "Rust, scorch marks, or burning smell",
+              "text": "Visible damage or odor at the panel is an urgent sign that the breaker box should be inspected and likely upgraded."
+            },
+            {
+              "title": "Frequent nuisance tripping",
+              "text": "If standard breakers trip often, the issue may be undersized circuits, failing breakers, or a panel that needs modern AFCI or GFCI protection."
+            },
+            {
+              "title": "Home inspection flagged the panel",
+              "text": "Real estate and insurance inspections sometimes identify panels that should be upgraded before sale or policy renewal."
+            }
+          ]
+        },
+        "process": {
+          "eyebrow": "Our process",
+          "heading": "What happens when you schedule a breaker box upgrade",
+          "steps": [
+            {
+              "title": "Explain your panel and plans",
+              "text": "Call (816) 548-9601 or submit the form below. Share your panel brand, any tripping issues, and circuits you want to add. Photos of the panel help us prepare."
+            },
+            {
+              "title": "Evaluation and upfront pricing",
+              "text": "A licensed electrician inspects the breaker box, feeder, and load. Prestige Electric provides upfront flat-rate pricing before upgrade work begins."
+            },
+            {
+              "title": "Upgrade installation and testing",
+              "text": "We install modern equipment to code, label circuits clearly, and test before sign-off. Work is backed by our lifetime craftsmanship warranty."
+            }
+          ]
+        },
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Kansas City homeowners choose Prestige Electric for breaker box upgrades",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, based in Belton and serving the full Kansas City metro. Your breaker box is the heart of your home's electrical system, and we treat upgrades with the attention they deserve.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and panel upgrades done right the first time."
+          ],
+          "bullets": [
+            "Improved safety with modern breakers and equipment",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ],
+          "image": {
+            "src": "/assets/service-why-prestige-electric-living-room.png",
+            "alt": "Modern Kansas City home interior with professional electrical work by Prestige Electric",
+            "width": 960,
+            "height": 640
+          }
+        },
+        "serviceArea": {
+          "heading": "Breaker box upgrades across the Kansas City metro",
+          "paragraph": "Prestige Electric provides breaker box upgrades in Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the greater Kansas City metropolitan area."
+        },
+        "midCta": {
+          "heading": "Running out of breaker spaces?",
+          "text": "Call now to review your panel and schedule a licensed electrician. Upfront pricing. No guesswork."
+        },
+        "relatedServices": [
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "When the entire panel enclosure is outdated or damaged, a full panel replacement may be the better long-term solution."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Higher household demand sometimes requires a service upgrade in addition to breaker box improvements."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Spa circuits often trigger the need for open breaker spaces and modern GFCI protection."
+          },
+          {
+            "slug": "troubleshooting",
+            "anchor": "electrical troubleshooting",
+            "description": "Not sure whether breakers, wiring, or the panel itself is the problem? Start with a diagnosis."
+          }
+        ],
+        "closingCta": {
+          "heading": "Schedule a breaker box upgrade with a Kansas City professional",
+          "text": "Tell us about your current panel and what you want to add. We will recommend the safest upgrade path. Call (816) 548-9601 to get started."
+        }
+      }
+    }
+  ],
+  "locations": [
+    {
+      "slug": "belton-mo",
+      "name": "Belton",
+      "state": "MO",
+      "displayName": "Belton, MO",
+      "description": "Prestige Electric is based in Belton and provides dependable residential electrical service for homeowners and businesses throughout the community.",
+      "mapQuery": "Prestige+Electric&ftid=0x87c0fb8c0da3fe2f:0x823655cf4c3aeba8",
+      "useBusinessMap": true,
+      "geo": {
+        "latitude": 38.812,
+        "longitude": -94.5339
+      },
+      "seo": {
+        "title": "Electrician in Belton, MO | Prestige Electric",
+        "metaDescription": "Belton-based family electrician serving local homes and businesses. Repairs, upgrades, and panel work. Call (816) 548-9601.",
+        "h1": "Electrician Serving Belton, MO"
+      },
+      "page": {
+        "heroLead": "Belton-based, family-owned electrical service for your home or business. Upfront flat-rate pricing from electricians who live and work in the community they serve.",
+        "heroEyebrow": "Belton electricians",
+        "intro": {
+          "eyebrow": "Belton electrical service",
+          "paragraphs": [
+            "Prestige Electric is based in Belton and serves homeowners and businesses throughout the city. From mid-century homes near downtown Belton to newer construction on the edges of Cass County, we handle panel replacements, service upgrades, outlet and wiring repairs, and hot tub circuits for properties across the community.",
+            "Because our shop is local, Belton service calls often mean shorter drive times and scheduling that fits how you actually use your home. Our licensed electricians diagnose problems on site, explain the safest fix in plain language, and provide upfront flat-rate pricing before work begins."
+          ]
+        },
+        "services": [
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Outlets, switches, wiring fixes, and lighting repairs for Belton homes."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Increase capacity for additions, workshops, and modern appliance loads."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Replace outdated or overcrowded panels with modern, dependable equipment."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups."
+          }
+        ],
+        "whyChoose": {
+          "eyebrow": "Your local electrician",
+          "heading": "Why Belton homeowners choose Prestige Electric",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated right here in Belton. When you call, you are reaching a local company that knows Cass County homes, not a call center routing you out of the area.",
+            "Customers across the Kansas City metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication and dependable workmanship."
+          ],
+          "bullets": [
+            "Based in Belton, MO",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ]
+        },
+        "serviceArea": {
+          "heading": "Serving Belton and the greater Kansas City metro",
+          "paragraph": "Prestige Electric is headquartered in Belton and also serves Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby communities throughout the Kansas City metropolitan area.",
+          "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Belton,+Missouri&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+        },
+        "closingCta": {
+          "heading": "Schedule an electrician in Belton",
+          "text": "Call or send a message to request electrical service in Belton. For urgent safety concerns, call (816) 548-9601 now."
+        },
+        "faqHeading": "Belton electrician questions",
+        "mapLinkLabel": "View Belton on Google Maps"
+      },
+      "faqs": [
+        {
+          "question": "Do you offer emergency electrical service in Belton?",
+          "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Belton and we will advise on the fastest next step."
+        },
+        {
+          "question": "Are you a local Belton electrician?",
+          "answer": "Yes. Prestige Electric is based in Belton, MO. We are a family-owned company serving Belton homeowners and businesses, as well as the broader Kansas City metro."
+        },
+        {
+          "question": "What electrical services do you provide in Belton?",
+          "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Belton homes and businesses. Each service has its own page with details on scope, process, and pricing approach."
+        },
+        {
+          "question": "How do I get a quote for electrical work in Belton?",
+          "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+        }
+      ]
+    },
+    {
+      "slug": "lees-summit-mo",
+      "name": "Lee's Summit",
+      "state": "MO",
+      "displayName": "Lee's Summit, MO",
+      "description": "Need an electrician in Lee's Summit? Prestige Electric handles service upgrades, panel replacements, hot tub wiring, and troubleshooting for local homes and businesses.",
+      "mapQuery": "Lee's+Summit,+Missouri",
+      "geo": {
+        "latitude": 38.9108,
+        "longitude": -94.3822
+      },
+      "seo": {
+        "title": "Electrician in Lee's Summit, MO | Prestige Electric",
+        "metaDescription": "Family-owned electrician in Lee's Summit, MO. Panel upgrades, repairs, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+        "h1": "Electrician Serving Lee's Summit, MO"
+      },
+      "page": {
+        "heroLead": "Family-owned electrical service for Lee's Summit homes and businesses. Upfront flat-rate pricing from a Belton-based team that serves eastern Jackson County regularly.",
+        "heroEyebrow": "Lee's Summit electricians",
+        "intro": {
+          "eyebrow": "Lee's Summit electrical service",
+          "paragraphs": [
+            "Prestige Electric serves Lee's Summit homeowners and businesses from our family-owned operation based in Belton. Lee's Summit spans a wide mix of housing, from older neighborhoods near downtown to newer builds on the city's growing edges, and electrical needs vary just as much. We see panel upgrades for finished basements, hot tub circuits for backyard setups, and troubleshooting calls when breakers trip under everyday load.",
+            "Whether you own a long-established Lee's Summit home or are updating a property before sale, our licensed electricians find the root cause, explain your options clearly, and provide upfront flat-rate pricing before any repair or upgrade work starts."
+          ]
+        },
+        "services": [
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Outlets, switches, wiring fixes, and lighting repairs for Lee's Summit homes."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Increase capacity for additions, workshops, and modern appliance loads."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Replace outdated or overcrowded panels with modern, dependable equipment."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups."
+          }
+        ],
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Lee's Summit homeowners choose Prestige Electric",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, serving Lee's Summit from our Belton base along with the rest of the Kansas City metro. We treat every home with the same care we would expect in our own.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication, dependable scheduling, and work done right the first time."
+          ],
+          "bullets": [
+            "Family-owned and operated local company",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ]
+        },
+        "serviceArea": {
+          "heading": "Serving Lee's Summit and the Kansas City metro",
+          "paragraph": "Prestige Electric provides electrical service throughout Lee's Summit and nearby communities, including Belton, Overland Park, Leawood, Lenexa, and Olathe.",
+          "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Lee's+Summit,+Missouri&t=&z=11&ie=UTF8&iwloc=B&output=embed"
+        },
+        "closingCta": {
+          "heading": "Schedule an electrician in Lee's Summit",
+          "text": "Call or send a message to request electrical service in Lee's Summit. For urgent safety concerns, call (816) 548-9601 now."
+        },
+        "faqHeading": "Lee's Summit electrician questions",
+        "mapLinkLabel": "View Lee's Summit on Google Maps"
+      },
+      "faqs": [
+        {
+          "question": "Do you offer emergency electrical service in Lee's Summit?",
+          "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Lee's Summit and we will advise on the fastest next step."
+        },
+        {
+          "question": "Are your electricians licensed to work in Lee's Summit, Missouri?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Missouri and pull local permits when required for Lee's Summit projects."
+        },
+        {
+          "question": "What electrical services do you provide in Lee's Summit?",
+          "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Lee's Summit homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+        },
+        {
+          "question": "How do I get a quote for electrical work in Lee's Summit?",
+          "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+        }
+      ]
+    },
+    {
+      "slug": "overland-park-ks",
+      "name": "Overland Park",
+      "state": "KS",
+      "displayName": "Overland Park, KS",
+      "description": "Prestige Electric serves Overland Park with professional electrical upgrades, panel replacements, hot tub circuits, and troubleshooting.",
+      "mapQuery": "Overland+Park,+Kansas",
+      "geo": {
+        "latitude": 38.9822,
+        "longitude": -94.6708
+      },
+      "seo": {
+        "title": "Electrician in Overland Park, KS | Prestige Electric",
+        "metaDescription": "Family-owned electrician in Overland Park, KS. Repairs, panel upgrades, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+        "h1": "Electrician Serving Overland Park, KS"
+      },
+      "page": {
+        "heroLead": "Family-owned electrical service for Overland Park homes and businesses. Upfront flat-rate pricing and dependable scheduling from a Belton-based team that serves Johnson County daily.",
+        "heroEyebrow": "Overland Park electricians",
+        "intro": {
+          "eyebrow": "Overland Park electrical service",
+          "paragraphs": [
+            "Prestige Electric serves Overland Park homeowners and businesses from our family-owned operation based in Belton. We routinely work in Downtown Overland Park, Corporate Woods, and neighborhoods along Metcalf Avenue, from 1960s and 1970s ranch homes with aging panels to newer subdivisions in south and west Overland Park where homeowners add EV chargers, hot tubs, and finished basement circuits.",
+            "Whether you need electrical repair in an established ranch home or a service upgrade before a remodel, our licensed electricians diagnose the issue, explain options in plain language, and provide upfront flat-rate pricing before work begins."
+          ]
+        },
+        "services": [
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Outlets, switches, wiring fixes, and lighting repairs for Overland Park homes."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Increase capacity for additions, workshops, and modern appliance loads."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Replace outdated or overcrowded panels with modern, dependable equipment."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups."
+          }
+        ],
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Overland Park homeowners choose Prestige Electric",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, serving the Kansas City metro including Overland Park and Johnson County. Based in Belton, we make regular service calls throughout Johnson County for repairs, upgrades, and new circuits.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication and repairs done right the first time."
+          ],
+          "bullets": [
+            "Family-owned and operated local company",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ]
+        },
+        "serviceArea": {
+          "heading": "Serving Overland Park and nearby Johnson County communities",
+          "paragraph": "Prestige Electric provides electrical service throughout Overland Park and the surrounding Kansas City metro, including Leawood, Lenexa, Olathe, Shawnee, Merriam, and Prairie Village.",
+          "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Overland+Park,+Kansas&t=&z=11&ie=UTF8&iwloc=B&output=embed"
+        },
+        "closingCta": {
+          "heading": "Schedule an electrician in Overland Park",
+          "text": "Call or send a message to request electrical service in Overland Park. For urgent safety concerns, call (816) 548-9601 now."
+        },
+        "faqHeading": "Overland Park electrician questions",
+        "mapLinkLabel": "View Overland Park on Google Maps"
+      },
+      "faqs": [
+        {
+          "question": "Do you offer emergency electrical service in Overland Park?",
+          "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Overland Park and we will advise on the fastest next step."
+        },
+        {
+          "question": "Are your electricians licensed to work in Johnson County, Kansas?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Kansas and pull permits through Johnson County when required for Overland Park projects."
+        },
+        {
+          "question": "What electrical services do you provide in Overland Park?",
+          "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Overland Park homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+        },
+        {
+          "question": "How do I get a quote for electrical work in Overland Park?",
+          "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+        }
+      ]
+    },
+    {
+      "slug": "leawood-ks",
+      "name": "Leawood",
+      "state": "KS",
+      "displayName": "Leawood, KS",
+      "description": "Homeowners in Leawood trust Prestige Electric for safe panel replacements, service upgrades, hot tub wiring, and dependable troubleshooting.",
+      "mapQuery": "Leawood,+Kansas",
+      "geo": {
+        "latitude": 38.9667,
+        "longitude": -94.6169
+      },
+      "seo": {
+        "title": "Electrician in Leawood, KS | Prestige Electric",
+        "metaDescription": "Family-owned electrician in Leawood, KS. Panel replacements, repairs, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+        "h1": "Electrician Serving Leawood, KS"
+      },
+      "page": {
+        "heroLead": "Family-owned electrical service for Leawood homes and businesses. Upfront flat-rate pricing from a team that serves Johnson County homeowners regularly.",
+        "heroEyebrow": "Leawood electricians",
+        "intro": {
+          "eyebrow": "Leawood electrical service",
+          "paragraphs": [
+            "Prestige Electric serves Leawood homeowners from our family-owned operation based in Belton. Leawood properties often involve high-end kitchen and bath remodels, outdoor lighting, whole-home generators, and hot tub installations that require careful load planning and clean panel work. We also troubleshoot tripping breakers and aging wiring in well-established Leawood homes.",
+            "Our licensed electricians work respectfully inside your home, explain the safest path forward, and provide upfront flat-rate pricing before upgrades, repairs, or new circuits are installed."
+          ]
+        },
+        "services": [
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Outlets, switches, wiring fixes, and lighting repairs for Leawood homes."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Increase capacity for additions, workshops, and modern appliance loads."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Replace outdated or overcrowded panels with modern, dependable equipment."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups."
+          }
+        ],
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Leawood homeowners choose Prestige Electric",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, serving Leawood and Johnson County from our Belton base. We understand that Leawood projects often involve detailed finish work and homeowners who expect clear communication throughout the job.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting dependable scheduling and quality workmanship."
+          ],
+          "bullets": [
+            "Family-owned and operated local company",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ]
+        },
+        "serviceArea": {
+          "heading": "Serving Leawood and nearby Johnson County communities",
+          "paragraph": "Prestige Electric provides electrical service throughout Leawood and the surrounding Kansas City metro, including Overland Park, Lenexa, Olathe, and Prairie Village.",
+          "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Leawood,+Kansas&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+        },
+        "closingCta": {
+          "heading": "Schedule an electrician in Leawood",
+          "text": "Call or send a message to request electrical service in Leawood. For urgent safety concerns, call (816) 548-9601 now."
+        },
+        "faqHeading": "Leawood electrician questions",
+        "mapLinkLabel": "View Leawood on Google Maps"
+      },
+      "faqs": [
+        {
+          "question": "Do you offer emergency electrical service in Leawood?",
+          "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Leawood and we will advise on the fastest next step."
+        },
+        {
+          "question": "Are your electricians licensed to work in Leawood and Johnson County?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Kansas and pull permits through Johnson County when required for Leawood projects."
+        },
+        {
+          "question": "What electrical services do you provide in Leawood?",
+          "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Leawood homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+        },
+        {
+          "question": "How do I get a quote for electrical work in Leawood?",
+          "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+        }
+      ]
+    },
+    {
+      "slug": "lenexa-ks",
+      "name": "Lenexa",
+      "state": "KS",
+      "displayName": "Lenexa, KS",
+      "description": "Prestige Electric provides electrical service in Lenexa for upgrades, panel changes, hot tub hookups, and power problem diagnosis.",
+      "mapQuery": "Lenexa,+Kansas",
+      "geo": {
+        "latitude": 38.9536,
+        "longitude": -94.7336
+      },
+      "seo": {
+        "title": "Electrician in Lenexa, KS | Prestige Electric",
+        "metaDescription": "Family-owned electrician in Lenexa, KS. Repairs, service upgrades, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+        "h1": "Electrician Serving Lenexa, KS"
+      },
+      "page": {
+        "heroLead": "Family-owned electrical service for Lenexa homes and businesses. Upfront flat-rate pricing from a Belton-based team that serves Johnson County throughout the week.",
+        "heroEyebrow": "Lenexa electricians",
+        "intro": {
+          "eyebrow": "Lenexa electrical service",
+          "paragraphs": [
+            "Prestige Electric serves Lenexa homeowners and businesses from our family-owned operation based in Belton. Lenexa combines an established city core with ongoing residential and commercial growth, which means electrical needs range from troubleshooting in older homes to service upgrades and dedicated circuits for new outdoor living spaces.",
+            "Whether you are adding a hot tub, finishing a basement, or replacing a panel that no longer has open breaker spaces, our licensed electricians assess the job on site and provide upfront flat-rate pricing before work begins."
+          ]
+        },
+        "services": [
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Outlets, switches, wiring fixes, and lighting repairs for Lenexa homes."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Increase capacity for additions, workshops, and modern appliance loads."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Replace outdated or overcrowded panels with modern, dependable equipment."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups."
+          }
+        ],
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Lenexa homeowners choose Prestige Electric",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, serving Lenexa and the broader Johnson County area from our Belton headquarters. We focus on finding the right solution for your home, not overselling work you do not need.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting honest recommendations and repairs done right the first time."
+          ],
+          "bullets": [
+            "Family-owned and operated local company",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ]
+        },
+        "serviceArea": {
+          "heading": "Serving Lenexa and nearby Johnson County communities",
+          "paragraph": "Prestige Electric provides electrical service throughout Lenexa and the surrounding Kansas City metro, including Overland Park, Leawood, Olathe, and Shawnee.",
+          "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Lenexa,+Kansas&t=&z=12&ie=UTF8&iwloc=B&output=embed"
+        },
+        "closingCta": {
+          "heading": "Schedule an electrician in Lenexa",
+          "text": "Call or send a message to request electrical service in Lenexa. For urgent safety concerns, call (816) 548-9601 now."
+        },
+        "faqHeading": "Lenexa electrician questions",
+        "mapLinkLabel": "View Lenexa on Google Maps"
+      },
+      "faqs": [
+        {
+          "question": "Do you offer emergency electrical service in Lenexa?",
+          "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Lenexa and we will advise on the fastest next step."
+        },
+        {
+          "question": "Are your electricians licensed to work in Lenexa, Kansas?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Kansas and pull permits through Johnson County when required for Lenexa projects."
+        },
+        {
+          "question": "What electrical services do you provide in Lenexa?",
+          "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Lenexa homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+        },
+        {
+          "question": "How do I get a quote for electrical work in Lenexa?",
+          "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+        }
+      ]
+    },
+    {
+      "slug": "olathe-ks",
+      "name": "Olathe",
+      "state": "KS",
+      "displayName": "Olathe, KS",
+      "description": "From panel replacements to hot tub circuits, Prestige Electric helps Olathe homeowners and businesses keep power safe and reliable.",
+      "mapQuery": "Olathe,+Kansas",
+      "geo": {
+        "latitude": 38.8814,
+        "longitude": -94.8191
+      },
+      "seo": {
+        "title": "Electrician in Olathe, KS | Prestige Electric",
+        "metaDescription": "Family-owned electrician in Olathe, KS. Panel replacements, repairs, and hot tub wiring. Upfront pricing. Call (816) 548-9601.",
+        "h1": "Electrician Serving Olathe, KS"
+      },
+      "page": {
+        "heroLead": "Family-owned electrical service for Olathe homes and businesses. Upfront flat-rate pricing from a team that serves Johnson County from our Belton headquarters.",
+        "heroEyebrow": "Olathe electricians",
+        "intro": {
+          "eyebrow": "Olathe electrical service",
+          "paragraphs": [
+            "Prestige Electric serves Olathe homeowners and businesses from our family-owned operation based in Belton. As one of the largest cities in the Kansas City metro, Olathe includes everything from long-established neighborhoods with aging panels to newer residential areas where homeowners add EV chargers, hot tubs, and finished basement circuits. We match the repair or upgrade to how your home actually uses power.",
+            "Our licensed electricians troubleshoot faults, replace panels, and install new circuits to code. You get a clear explanation of the work and upfront flat-rate pricing before we start."
+          ]
+        },
+        "services": [
+          {
+            "slug": "electrical-repair",
+            "anchor": "electrical repair",
+            "description": "Outlets, switches, wiring fixes, and lighting repairs for Olathe homes."
+          },
+          {
+            "slug": "service-upgrades",
+            "anchor": "electrical service upgrades",
+            "description": "Increase capacity for additions, workshops, and modern appliance loads."
+          },
+          {
+            "slug": "panel-replacements",
+            "anchor": "electrical panel replacement",
+            "description": "Replace outdated or overcrowded panels with modern, dependable equipment."
+          },
+          {
+            "slug": "hot-tubs",
+            "anchor": "hot tub wiring",
+            "description": "Dedicated spa circuits, GFCI protection, and code-compliant hookups."
+          }
+        ],
+        "whyChoose": {
+          "eyebrow": "Local electricians",
+          "heading": "Why Olathe homeowners choose Prestige Electric",
+          "paragraphs": [
+            "Prestige Electric is family-owned and operated, serving Olathe and Johnson County from our Belton base. Olathe covers a lot of ground, and we plan drive routes to keep appointments dependable for homeowners across the city.",
+            "Customers across the metro rate Prestige Electric 4.8 out of 5 on Google based on 61 reviews, reflecting clear communication and professional results."
+          ],
+          "bullets": [
+            "Family-owned and operated local company",
+            "Licensed and insured electricians",
+            "Upfront flat-rate pricing before work starts",
+            "Lifetime craftsmanship warranty on qualifying work"
+          ]
+        },
+        "serviceArea": {
+          "heading": "Serving Olathe and nearby Johnson County communities",
+          "paragraph": "Prestige Electric provides electrical service throughout Olathe and the surrounding Kansas City metro, including Overland Park, Lenexa, Leawood, and Gardner.",
+          "mapEmbed": "https://maps.google.com/maps?width=600&height=400&hl=en&q=Olathe,+Kansas&t=&z=11&ie=UTF8&iwloc=B&output=embed"
+        },
+        "closingCta": {
+          "heading": "Schedule an electrician in Olathe",
+          "text": "Call or send a message to request electrical service in Olathe. For urgent safety concerns, call (816) 548-9601 now."
+        },
+        "faqHeading": "Olathe electrician questions",
+        "mapLinkLabel": "View Olathe on Google Maps"
+      },
+      "faqs": [
+        {
+          "question": "Do you offer emergency electrical service in Olathe?",
+          "answer": "We are not a 24/7 emergency service. For life-safety emergencies, call 911 first. Prestige Electric is available Monday through Friday, 8:00 AM to 5:00 PM. Call (816) 548-9601 to describe urgent safety concerns in Olathe and we will advise on the fastest next step."
+        },
+        {
+          "question": "Are your electricians licensed to work in Olathe, Kansas?",
+          "answer": "Yes. Prestige Electric is licensed and insured. Our electricians hold the credentials required for electrical work in Kansas and pull permits through Johnson County when required for Olathe projects."
+        },
+        {
+          "question": "What electrical services do you provide in Olathe?",
+          "answer": "We provide electrical repair, service upgrades, panel replacements, and hot tub wiring for Olathe homeowners and businesses. Each service has its own page with details on scope, process, and pricing approach."
+        },
+        {
+          "question": "How do I get a quote for electrical work in Olathe?",
+          "answer": "Call (816) 548-9601 or submit the request form on this page. Describe the issue or project scope and we will schedule an on-site evaluation with upfront flat-rate pricing before work begins."
+        }
+      ]
     }
   ],
   "process": [
@@ -62,30 +1643,239 @@
     {
       "step": "02",
       "title": "Get a clear recommendation",
-      "description": "A knowledgeable electrician reviews the work and explains the safest, most practical solution."
+      "description": "A knowledgeable electrician reviews the work and explains the safest, most practical solution with up front flat rate pricing."
     },
     {
       "step": "03",
       "title": "Enjoy reliable power",
-      "description": "Prestige completes the work cleanly, safely, and with a focus on long-term performance."
+      "description": "Prestige completes the work cleanly, safely, and backs it with a lifetime craftsmanship warranty."
     }
   ],
+  "gallery": {
+    "seo": {
+      "title": "See Our Work | Prestige Electric",
+      "metaDescription": "Browse electrical projects completed by Prestige Electric across the Kansas City metro, including panel upgrades, repairs, and wiring work.",
+      "h1": "See Our Work",
+      "intro": "Recent electrical projects from homes and businesses across Belton, Lee's Summit, Overland Park, and the greater Kansas City area."
+    },
+    "squareSize": 800,
+    "images": [
+      {
+        "src": "/assets/gallery/prestige-electric-work-01.jpg",
+        "alt": "Burger King Lighting Repair",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-02.jpg",
+        "alt": "Closet Lighting Kansas City Mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-03.jpg",
+        "alt": "Custom Ceiling Lighting Kansas City Mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-04.jpg",
+        "alt": "Custom Kitchen Lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-05.jpg",
+        "alt": "Kitchen Lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-06.jpg",
+        "alt": "Lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-07.jpg",
+        "alt": "Outdoor Lighting Kansas MO",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-08.jpg",
+        "alt": "Panel Replacement",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-09.jpg",
+        "alt": "Panel Upgrade Kansas City",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-10.jpg",
+        "alt": "Panel Upgrade",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-11.jpg",
+        "alt": "TV Mounting Kansas City Mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-12.jpg",
+        "alt": "TV Mounting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-13.jpg",
+        "alt": "Wall mounted lighting repair",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-14.jpg",
+        "alt": "Bathroom lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-15.jpg",
+        "alt": "Ceiling lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-16.jpg",
+        "alt": "Commercial cieling lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-17.jpg",
+        "alt": "Commercial lighting kansas city mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-18.jpg",
+        "alt": "Commercial lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-19.jpg",
+        "alt": "Custom bar lighting repair",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-20.jpg",
+        "alt": "Custom bar lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-21.jpg",
+        "alt": "Custom bathroom lighting kansas city mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-22.jpg",
+        "alt": "Custom ceiling lighting kansas city",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-23.jpg",
+        "alt": "Custom tv mounting kansas city mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-24.jpg",
+        "alt": "Electrical repair kansas city mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-25.jpg",
+        "alt": "Hot tub electrical work",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-26.jpg",
+        "alt": "Kitchen lighting repair",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-27.jpg",
+        "alt": "Lighting repair kansas city mo",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-28.jpg",
+        "alt": "Living room lighting",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-29.jpg",
+        "alt": "New construction lighting repair",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "/assets/gallery/prestige-electric-work-30.jpg",
+        "alt": "New construction lighting",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "googleReviews": {
+    "rating": 4.8,
+    "reviewCount": 61,
+    "profileUrl": "https://maps.app.goo.gl/Gidnu3SVFS64SbHx8"
+  },
+  "testimonials": [],
   "faq": [
     {
-      "question": "Do you provide residential and commercial electrical services?",
-      "answer": "Yes. Prestige Electric handles electrical repairs, installations, panel upgrades, lighting, rewiring, and ongoing service for homes and businesses across the Kansas City metro."
+      "question": "Are you a family owned electrical company?",
+      "answer": "Yes. Prestige Electric is a family owned and operated electrical service company serving the greater Kansas City metropolitan area."
     },
     {
-      "question": "Can I request a free electrical estimate?",
-      "answer": "Yes. You can call +1 (816) 548-9601 or use the quote form to request an estimate for electrical repairs, upgrades, or installations."
+      "question": "Are you licensed and insured?",
+      "answer": "Yes. Prestige Electric is fully licensed and insured. Our electricians are licensed professionals, and we carry the insurance coverage required to protect your home or business during electrical work."
     },
     {
-      "question": "What are common signs I should call an electrician?",
-      "answer": "Frequent breaker trips, flickering lights, warm outlets, buzzing panels, burning smells, outdated wiring, or power loss are all signs that a licensed electrician should inspect the system."
+      "question": "Can you handle large commercial projects?",
+      "answer": "Yes, in many cases. Prestige Electric provides electrical service for offices, retail spaces, small commercial facilities, and larger commercial projects when the scope is a good fit. Call (816) 548-9601 or request a quote to discuss your project, timeline, and requirements."
     },
     {
-      "question": "Do you install EV chargers and upgraded electrical panels?",
-      "answer": "Yes. Prestige Electric can install dedicated EV charger circuits, Level 2 chargers, new panels, sub-panels, and electrical upgrades for higher-capacity equipment."
+      "question": "Do you offer flat rate pricing?",
+      "answer": "Yes. Prestige Electric provides up front flat rate pricing so customers know what to expect before work begins."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "Prestige Electric serves Belton, Lee's Summit, Overland Park, Leawood, Lenexa, Olathe, and nearby Kansas City metro communities."
+    },
+    {
+      "question": "Do you install hot tubs and replace electrical panels?",
+      "answer": "Yes. Prestige Electric installs hot tub circuits, replaces electrical panels, performs service upgrades, and troubleshoots electrical problems."
+    },
+    {
+      "question": "What are your business hours?",
+      "answer": "Prestige Electric is available Monday through Friday from 8:00 AM to 5:00 PM. Call (816) 548-9601 to schedule service."
     }
   ]
 }
