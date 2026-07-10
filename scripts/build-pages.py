@@ -19,6 +19,19 @@ def esc(value):
 FORM_EMBED_SRC = "https://link.clicktitan.com/widget/form/FMUZz7UusRyIJeLnAGZI"
 FORM_EMBED_ID = "FMUZz7UusRyIJeLnAGZI"
 
+FAVICON_LINKS = """    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />"""
+
+GOOGLE_ANALYTICS = """    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B34W90C26K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-B34W90C26K');
+    </script>"""
+
 
 def render_form_embed(suffix="", extra_class="", title="Request service from Prestige Electric", height=719):
     iframe_id = f"inline-{FORM_EMBED_ID}{suffix}"
@@ -44,6 +57,7 @@ def page_shell(title, description, canonical, json_ld, body, page=""):
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{GOOGLE_ANALYTICS}
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(description)}" />
     <meta name="robots" content="index, follow" />
@@ -56,6 +70,7 @@ def page_shell(title, description, canonical, json_ld, body, page=""):
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#6fbd44" />
+{FAVICON_LINKS}
     <link rel="stylesheet" href="/styles.css" />
     <script type="application/ld+json">{json.dumps(json_ld, indent=2)}</script>
   </head>

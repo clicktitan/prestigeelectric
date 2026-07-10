@@ -118,6 +118,13 @@ p {
   transform: translateY(0);
 }
 
+#quote,
+#service-quote,
+#location-quote,
+#contact-form {
+  scroll-margin-top: 100px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1664,6 +1671,120 @@ textarea {
 
 .legal-content ul {
   padding-left: 1.25rem;
+}
+
+.privacy-policy-doc .privacy-meta {
+  color: var(--slate);
+  font-size: 0.95rem;
+  margin: 0 0 1.5rem;
+}
+
+.privacy-policy-doc .privacy-lead {
+  font-size: 1.05rem;
+  color: var(--charcoal);
+}
+
+.privacy-policy-doc h3 {
+  font-size: 1.05rem;
+  margin: 1.6rem 0 0.5rem;
+  color: var(--charcoal);
+}
+
+.privacy-policy-doc .privacy-toc {
+  background: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.35rem 1.6rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.privacy-policy-doc .privacy-toc strong {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--slate);
+  margin-bottom: 0.65rem;
+}
+
+.privacy-policy-doc .privacy-toc ol {
+  margin: 0;
+  padding-left: 1.25rem;
+  columns: 2;
+  column-gap: 2.25rem;
+}
+
+.privacy-policy-doc .privacy-toc li {
+  margin: 0.25rem 0;
+  font-size: 0.92rem;
+}
+
+.privacy-policy-doc .privacy-toc a {
+  color: var(--green-dark);
+  font-weight: 700;
+}
+
+.privacy-policy-doc .privacy-note {
+  background: rgba(111, 189, 68, 0.12);
+  border-left: 4px solid var(--green);
+  padding: 0.9rem 1.1rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.1rem 0;
+  font-size: 0.93rem;
+  color: var(--charcoal);
+}
+
+.privacy-policy-doc .privacy-sms-block {
+  background: #eef6f0;
+  border: 1px solid #bcd9c4;
+  border-radius: 12px;
+  padding: 0.5rem 1.85rem 1.6rem;
+  margin: 1.4rem 0;
+}
+
+.privacy-policy-doc .privacy-sms-block h2 {
+  color: #1f6b3a;
+  margin-top: 1.25rem;
+}
+
+.privacy-policy-doc .privacy-sms-tag {
+  display: inline-block;
+  background: #1f6b3a;
+  color: #fff;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  margin-top: 1.25rem;
+  font-weight: 700;
+}
+
+.privacy-policy-doc .privacy-mandatory {
+  background: #fff;
+  border: 1px solid #bcd9c4;
+  border-radius: 8px;
+  padding: 0.15rem 1.25rem;
+  margin: 0.9rem 0;
+}
+
+.privacy-policy-doc .privacy-mandatory p {
+  color: var(--charcoal);
+  font-weight: 500;
+}
+
+.privacy-policy-doc .privacy-footer-note {
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+  color: var(--slate);
+}
+
+@media (max-width: 640px) {
+  .privacy-policy-doc .privacy-toc ol {
+    columns: 1;
+  }
 }
 
 .sitemap-content {
