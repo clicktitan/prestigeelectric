@@ -17,7 +17,7 @@ const renderLogo = (
 };
 
 const quoteHrefByPage = {
-  home: "#quote",
+  home: "#hero-quote",
   services: "#service-quote",
   locations: "#location-quote",
   contact: "#contact-form",
