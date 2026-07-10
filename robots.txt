@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://prestigeelectricalcontractors.com/sitemap.xml
+Sitemap: https://prestigeelectricco.com/sitemap.xml
+# LLMs: https://prestigeelectricco.com/llms.txt

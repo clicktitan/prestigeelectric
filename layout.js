@@ -4,13 +4,27 @@ const getSiteContent = async () => {
   return response.json();
 };
 
-const renderLogo = (business, { className = "brand-logo-img", width = 200, height = 56 } = {}) => {
+const renderLogo = (
+  business,
+  { className = "brand-logo-img", width = 200, height = 56, loading = "" } = {},
+) => {
   if (!business.logo) {
     return `<span class="brand-text">${business.name}</span>`;
   }
 
-  return `<img class="${className}" src="${business.logo}" alt="${business.name} logo" width="${width}" height="${height}" />`;
+  const loadingAttr = loading ? ` loading="${loading}" decoding="async"` : "";
+  return `<img class="${className}" src="${business.logo}" alt="${business.name} logo" width="${width}" height="${height}"${loadingAttr} />`;
 };
+
+const quoteHrefByPage = {
+  home: "#quote",
+  services: "#service-quote",
+  locations: "#location-quote",
+  contact: "#contact-form",
+  "our-work": "#quote",
+};
+
+const getQuoteHref = (active) => quoteHrefByPage[active] ?? "/contact.html#contact-form";
 
 const renderHeader = (business, services, locations, active = "") => {
   const serviceLinks = services.map((service) => ({
@@ -57,7 +71,7 @@ const renderHeader = (business, services, locations, active = "") => {
         </div>
         <a href="/our-work.html"${active === "our-work" ? ' aria-current="page"' : ""}>See Our Work</a>
         <a href="/contact.html"${active === "contact" ? ' aria-current="page"' : ""}>Contact Us</a>
-        <a class="nav-cta" href="${homePrefix}#quote">Get a Free Quote</a>
+        <a class="nav-cta" href="${getQuoteHref(active)}">Get a Free Quote</a>
       </div>
     </nav>
   `;
@@ -68,7 +82,7 @@ const renderFooter = (business, services, locations) => {
     <div class="container footer-grid">
       <div>
         <a class="footer-brand" href="/#top" aria-label="${business.name} home">
-          ${renderLogo(business, { className: "footer-brand-img", width: 180, height: 50 })}
+          ${renderLogo(business, { className: "footer-brand-img", width: 180, height: 50, loading: "lazy" })}
         </a>
         <p>${business.about}</p>
         <a class="footer-social" href="${business.facebook}" target="_blank" rel="noopener noreferrer">Follow on Facebook</a>

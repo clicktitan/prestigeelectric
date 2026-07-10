@@ -43,6 +43,7 @@ const copyStaticAssets = () => ({
       ["site-content.json", "site-content.json"],
       ["robots.txt", "robots.txt"],
       ["sitemap.xml", "sitemap.xml"],
+      ["llms.txt", "llms.txt"],
       ["assets", "assets"],
     ];
 

@@ -295,6 +295,23 @@ const initYear = () => {
   });
 };
 
+const initImageLoading = () => {
+  document.querySelectorAll("img:not([loading])").forEach((img) => {
+    const isPriority =
+      img.closest(".hero, .service-hero, .location-hero, .contact-hero") ||
+      img.closest(".site-header .brand");
+
+    if (isPriority) {
+      img.fetchPriority = "high";
+      img.decoding = "async";
+      return;
+    }
+
+    img.loading = "lazy";
+    img.decoding = "async";
+  });
+};
+
 const loadScript = (src) =>
   new Promise((resolve, reject) => {
     if (document.querySelector(`script[src="${src}"]`)) {
@@ -354,6 +371,7 @@ const initGhlFormEmbeds = async () => {
 
 const activePage = document.body.dataset.page || "";
 await initLayout(activePage);
+initImageLoading();
 initNavigation();
 initYear();
 hydrateContent();
