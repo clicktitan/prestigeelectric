@@ -1852,29 +1852,33 @@ textarea {
 
   .nav-links {
     position: fixed;
-    inset: 78px 20px auto;
+    top: 78px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
     display: grid;
+    align-content: start;
     gap: 0.2rem;
-    padding: 1rem;
+    padding: 1rem 1rem 1.25rem;
     border: 1px solid var(--line);
     border-radius: var(--radius-md);
     background: var(--white);
     box-shadow: var(--shadow);
-    max-height: calc(100dvh - 96px);
-    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch;
-    transform: translateY(-16px);
+    touch-action: pan-y;
+    transform: none;
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
-    transition:
-      transform 0.2s ease,
-      opacity 0.2s ease;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
   }
 
   .nav-dropdown-panel {
     position: static;
-    display: none;
+    display: block;
     opacity: 1;
     pointer-events: auto;
     transform: none;
@@ -1882,30 +1886,13 @@ textarea {
     box-shadow: none;
   }
 
-  .nav-dropdown.is-open .nav-dropdown-panel {
-    display: block;
-  }
-
-  .nav-dropdown > a::after {
-    content: " +";
-    font-weight: 700;
-  }
-
-  .nav-dropdown.is-open > a::after {
-    content: " −";
-  }
-
   .nav-cta {
     margin-top: 0.65rem;
-    position: sticky;
-    bottom: 0;
-    z-index: 2;
-    background: linear-gradient(135deg, var(--green), var(--green-dark));
   }
 
   .nav-links.is-open {
-    transform: translateY(0);
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
   }
 

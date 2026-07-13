@@ -8,8 +8,6 @@ const QUOTE_HASHES = new Set([
   "#contact-form",
 ]);
 
-const isMobileNav = () => window.matchMedia("(max-width: 980px)").matches;
-
 const getHeaderOffset = () => {
   const header = document.querySelector(".site-header");
   return header ? Math.ceil(header.getBoundingClientRect().height) + 12 : 96;
@@ -23,9 +21,6 @@ const closeMobileNav = () => {
   navToggle.setAttribute("aria-expanded", "false");
   navLinks.classList.remove("is-open");
   document.body.classList.remove("nav-open");
-  navLinks.querySelectorAll(".nav-dropdown.is-open").forEach((node) => {
-    node.classList.remove("is-open");
-  });
 };
 
 const scrollToHashTarget = (hash) => {
@@ -68,31 +63,9 @@ const initNavigation = () => {
     document.body.classList.toggle("nav-open", !isOpen);
   });
 
-  navLinks.querySelectorAll(".nav-dropdown > a").forEach((trigger) => {
-    trigger.addEventListener("click", (event) => {
-      if (!isMobileNav()) return;
-
-      event.preventDefault();
-      event.stopPropagation();
-
-      const dropdown = trigger.closest(".nav-dropdown");
-      if (!dropdown) return;
-
-      const isOpen = dropdown.classList.contains("is-open");
-      navLinks.querySelectorAll(".nav-dropdown.is-open").forEach((node) => {
-        if (node !== dropdown) node.classList.remove("is-open");
-      });
-      dropdown.classList.toggle("is-open", !isOpen);
-    });
-  });
-
   navLinks.addEventListener("click", (event) => {
     const link = event.target.closest("a");
     if (!link || !navLinks.contains(link)) return;
-
-    if (isMobileNav() && link.matches(".nav-dropdown > a")) {
-      return;
-    }
 
     const href = link.getAttribute("href") || "";
 
