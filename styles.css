@@ -527,9 +527,15 @@ p {
   margin-bottom: 2rem;
 }
 
-.hero-actions,
-.proof-list {
+.hero-actions {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.proof-list {
+  display: none;
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
@@ -1851,29 +1857,33 @@ textarea {
   }
 
   .nav-links {
-    position: fixed;
-    top: 78px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    right: 0;
+    width: auto;
     display: grid;
-    align-content: start;
+    align-items: stretch;
     gap: 0.2rem;
-    padding: 1rem 1rem 1.25rem;
+    padding: 1rem;
     border: 1px solid var(--line);
     border-radius: var(--radius-md);
     background: var(--white);
     box-shadow: var(--shadow);
+    max-height: min(70vh, calc(100dvh - 7rem));
     overflow-x: hidden;
-    overflow-y: scroll;
-    overscroll-behavior: contain;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    touch-action: pan-y;
-    transform: none;
+    overscroll-behavior: contain;
+    transform: translateY(-8px);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.2s ease, visibility 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      opacity 0.2s ease,
+      visibility 0.2s ease;
+    z-index: 60;
   }
 
   .nav-dropdown-panel {
@@ -1884,6 +1894,9 @@ textarea {
     transform: none;
     margin-top: 0.35rem;
     box-shadow: none;
+    border: 0;
+    background: transparent;
+    padding: 0 0 0 0.5rem;
   }
 
   .nav-cta {
@@ -1891,6 +1904,7 @@ textarea {
   }
 
   .nav-links.is-open {
+    transform: translateY(0);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -1898,6 +1912,15 @@ textarea {
 
   .nav-links a {
     padding: 0.8rem 0.9rem;
+  }
+
+  .site-header {
+    position: sticky;
+    overflow: visible;
+  }
+
+  .nav {
+    position: relative;
   }
 
   .hero {
@@ -1992,6 +2015,7 @@ textarea {
 
   .hero-actions,
   .proof-list {
+    display: flex;
     align-items: stretch;
     flex-direction: column;
   }
