@@ -317,6 +317,11 @@ const hydrateContent = async () => {
       if (node instanceof HTMLAnchorElement) node.href = data.business.phoneHref;
     });
 
+    const callBarLink = document.querySelector("[data-site-call-bar] a");
+    if (callBarLink && data.business?.phoneHref) {
+      callBarLink.href = data.business.phoneHref;
+    }
+
     document.querySelectorAll("[data-business-email]").forEach((node) => {
       node.textContent = data.business.email;
       if (node instanceof HTMLAnchorElement) node.href = data.business.emailHref;
@@ -332,36 +337,6 @@ const hydrateContent = async () => {
   } catch {
     // Static SEO content remains in HTML if JSON fails to load.
   }
-};
-
-const initServiceMobileBar = () => {
-  const bar = document.querySelector("[data-service-mobile-bar]");
-  if (!bar) return;
-
-  const toggleBar = () => {
-    const hero = document.querySelector(".service-hero");
-    if (!hero) return;
-    const pastHero = window.scrollY > hero.offsetHeight * 0.45;
-    bar.hidden = !pastHero;
-  };
-
-  toggleBar();
-  window.addEventListener("scroll", toggleBar, { passive: true });
-};
-
-const initLocationMobileBar = () => {
-  const bar = document.querySelector("[data-location-mobile-bar]");
-  if (!bar) return;
-
-  const toggleBar = () => {
-    const hero = document.querySelector(".location-hero");
-    if (!hero) return;
-    const pastHero = window.scrollY > hero.offsetHeight * 0.45;
-    bar.hidden = !pastHero;
-  };
-
-  toggleBar();
-  window.addEventListener("scroll", toggleBar, { passive: true });
 };
 
 const initYear = () => {
@@ -444,6 +419,21 @@ const initGhlFormEmbeds = async () => {
   );
 };
 
+const initSiteCallBar = () => {
+  if (document.querySelector("[data-site-call-bar]")) return;
+
+  const phoneLink =
+    document.querySelector("[data-business-phone]")?.getAttribute("href") ||
+    document.querySelector('a[href^="tel:"]')?.getAttribute("href") ||
+    "tel:+18165489601";
+
+  const bar = document.createElement("div");
+  bar.className = "site-call-bar";
+  bar.setAttribute("data-site-call-bar", "");
+  bar.innerHTML = `<a class="btn btn-primary site-call-bar-btn" href="${phoneLink}">Call Now</a>`;
+  document.body.appendChild(bar);
+};
+
 const activePage = document.body.dataset.page || "";
 await initLayout(activePage);
 initImageLoading();
@@ -451,6 +441,5 @@ initNavigation();
 initQuoteScroll();
 initYear();
 hydrateContent();
-initServiceMobileBar();
-initLocationMobileBar();
+initSiteCallBar();
 initGhlFormEmbeds();
