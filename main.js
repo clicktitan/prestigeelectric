@@ -8,8 +8,6 @@ const QUOTE_HASHES = new Set([
   "#contact-form",
 ]);
 
-const isMobileNav = () => window.matchMedia("(max-width: 980px)").matches;
-
 const getHeaderOffset = () => {
   const header = document.querySelector(".site-header");
   return header ? Math.ceil(header.getBoundingClientRect().height) + 12 : 96;
@@ -23,9 +21,6 @@ const closeMobileNav = () => {
   navToggle.setAttribute("aria-expanded", "false");
   navLinks.classList.remove("is-open");
   document.body.classList.remove("nav-open");
-  navLinks.querySelectorAll(".nav-dropdown.is-open").forEach((node) => {
-    node.classList.remove("is-open");
-  });
 };
 
 const scrollToHashTarget = (hash) => {
@@ -68,31 +63,9 @@ const initNavigation = () => {
     document.body.classList.toggle("nav-open", !isOpen);
   });
 
-  navLinks.querySelectorAll(".nav-dropdown > a").forEach((trigger) => {
-    trigger.addEventListener("click", (event) => {
-      if (!isMobileNav()) return;
-
-      event.preventDefault();
-      event.stopPropagation();
-
-      const dropdown = trigger.closest(".nav-dropdown");
-      if (!dropdown) return;
-
-      const isOpen = dropdown.classList.contains("is-open");
-      navLinks.querySelectorAll(".nav-dropdown.is-open").forEach((node) => {
-        if (node !== dropdown) node.classList.remove("is-open");
-      });
-      dropdown.classList.toggle("is-open", !isOpen);
-    });
-  });
-
   navLinks.addEventListener("click", (event) => {
     const link = event.target.closest("a");
     if (!link || !navLinks.contains(link)) return;
-
-    if (isMobileNav() && link.matches(".nav-dropdown > a")) {
-      return;
-    }
 
     const href = link.getAttribute("href") || "";
 
@@ -344,6 +317,11 @@ const hydrateContent = async () => {
       if (node instanceof HTMLAnchorElement) node.href = data.business.phoneHref;
     });
 
+    const callBarLink = document.querySelector("[data-site-call-bar] a");
+    if (callBarLink && data.business?.phoneHref) {
+      callBarLink.href = data.business.phoneHref;
+    }
+
     document.querySelectorAll("[data-business-email]").forEach((node) => {
       node.textContent = data.business.email;
       if (node instanceof HTMLAnchorElement) node.href = data.business.emailHref;
@@ -359,36 +337,6 @@ const hydrateContent = async () => {
   } catch {
     // Static SEO content remains in HTML if JSON fails to load.
   }
-};
-
-const initServiceMobileBar = () => {
-  const bar = document.querySelector("[data-service-mobile-bar]");
-  if (!bar) return;
-
-  const toggleBar = () => {
-    const hero = document.querySelector(".service-hero");
-    if (!hero) return;
-    const pastHero = window.scrollY > hero.offsetHeight * 0.45;
-    bar.hidden = !pastHero;
-  };
-
-  toggleBar();
-  window.addEventListener("scroll", toggleBar, { passive: true });
-};
-
-const initLocationMobileBar = () => {
-  const bar = document.querySelector("[data-location-mobile-bar]");
-  if (!bar) return;
-
-  const toggleBar = () => {
-    const hero = document.querySelector(".location-hero");
-    if (!hero) return;
-    const pastHero = window.scrollY > hero.offsetHeight * 0.45;
-    bar.hidden = !pastHero;
-  };
-
-  toggleBar();
-  window.addEventListener("scroll", toggleBar, { passive: true });
 };
 
 const initYear = () => {
@@ -471,6 +419,21 @@ const initGhlFormEmbeds = async () => {
   );
 };
 
+const initSiteCallBar = () => {
+  if (document.querySelector("[data-site-call-bar]")) return;
+
+  const phoneLink =
+    document.querySelector("[data-business-phone]")?.getAttribute("href") ||
+    document.querySelector('a[href^="tel:"]')?.getAttribute("href") ||
+    "tel:+18165489601";
+
+  const bar = document.createElement("div");
+  bar.className = "site-call-bar";
+  bar.setAttribute("data-site-call-bar", "");
+  bar.innerHTML = `<a class="btn btn-primary site-call-bar-btn" href="${phoneLink}">Call Now</a>`;
+  document.body.appendChild(bar);
+};
+
 const activePage = document.body.dataset.page || "";
 await initLayout(activePage);
 initImageLoading();
@@ -478,6 +441,5 @@ initNavigation();
 initQuoteScroll();
 initYear();
 hydrateContent();
-initServiceMobileBar();
-initLocationMobileBar();
+initSiteCallBar();
 initGhlFormEmbeds();
